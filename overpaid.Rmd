@@ -13,7 +13,16 @@ library(gt)
 ```
 
 ```{r import}
-pay <- read_csv('data/pay_complete.csv')
-stats <- read_csv('data/stats_complete.csv')
+pay_2020 <- read_csv('data/pay_complete.csv')
+stats_2019 <- read_csv('data/stats_complete_2018.csv')
+stats_2020 <- read_csv('data/stats_complete.csv')
+```
+
+```{r}
+stats_2020 %>% mutate('season' = 2020)
+stats_2019 %>% mutate('season' = 2019)
+
+combined_stats <- stats_2020 %>%
+  bind_rows(stats_2019)
 ```
 
