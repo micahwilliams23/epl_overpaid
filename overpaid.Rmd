@@ -1,0 +1,13 @@
+---
+title: "Premier League's Overpaid Players"
+author: "Micah Williams"
+date: "2/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(gt)
+```
+
