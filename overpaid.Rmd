@@ -9,13 +9,39 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE)
 library(readr)
 library(tidyverse)
+library(dplyr)
 library(gt)
 ```
 
 ```{r import}
+# name cleaning process:
+  # filter out single-named players (ex. Willian or Rodri)
+  # separate first name from last name
+  # switch name order ('Firstname' 'Lastname' instead of 'Lastname' 'Firstname')
+  # recombine in new column, drop original name columns
+
+# import contract data
 pay_2020 <- read_csv('data/pay_complete.csv')
-stats_2019 <- read_csv('data/stats_complete_2018.csv')
-stats_2020 <- read_csv('data/stats_complete.csv')
+
+# import player statistics from '18-'19 season
+stats_2019 <- read_csv('data/stats_complete_2018.csv') %>%
+  filter(str_detect(player, ',')) %>%
+  separate(player, c('lastname','firstname'), ', ') %>%
+  mutate(player = paste(firstname, lastname, sep = ' ')) %>%
+  select(player, everything()) %>%
+  select(-c(firstname, lastname))
+
+# import player statistics from '19-'20 season
+stats_2020 <- read_csv('data/stats_complete.csv') %>%
+  filter(str_detect(player, ',')) %>%
+  separate(player, c('lastname','firstname'), ', ') %>%
+  mutate(player = paste(firstname, lastname, sep = ' ')) %>%
+  select(player, everything()) %>%
+  select(-c(firstname, lastname))
+```
+
+```{r import}
+pay_2020
 ```
 
 ```{r}
