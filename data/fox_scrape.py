@@ -4,13 +4,13 @@ import csv
 
 header = ['player','games','starts','goals','assists','shots_on_goal','shots','yellow','red']
 
-with open('epl_stats.csv', 'w', newline = '') as f:
+with open('pay_complete_2018.csv', 'w', newline = '') as f:
     writer = csv.writer(f)
     writer.writerow(header)
 
-url_root = 'https://www.foxsports.com/soccer/stats?competition=1&season=20190&category=STANDARD&pos=0&team=0&isOpp=0&sort=3&sortOrder=0&page='
+url_root = 'https://www.foxsports.com/soccer/stats?competition=1&season=20180&category=STANDARD&pos=0&team=0&isOpp=0&sort=3&sortOrder=0&page='
 
-for i in range(1,11):
+for i in range(1,12):
 
     page_html = req.get(url_root+str(i)).content
 
@@ -23,7 +23,6 @@ for i in range(1,11):
     for player_row in player_rows:
 
         player = player_row.a.span.text
-        print('NAME: ' + player)
         player_data = player_row.findAll('td')
 
         games = player_data[1].text
@@ -37,6 +36,6 @@ for i in range(1,11):
 
         newrow = [player, games, starts, goals, assists, shots_on_goal, shots, yellow, red]
 
-        with open('epl_stats.csv', 'a', newline = '') as f:
+        with open('pay_complete_2018.csv', 'a', newline = '') as f:
             writer = csv.writer(f)
             writer.writerow(newrow)
