@@ -22,6 +22,7 @@ with open('team_links.txt', 'r') as f:
 
         page_html = req.get(test_url).content
 
+        page_soup = soup(page_html, 'html.parser')
 
         rows = page_soup.findAll('table',{'class':'datatable'})[0].findAll('tr')[1:]
 
