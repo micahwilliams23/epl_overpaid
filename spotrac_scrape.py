@@ -14,42 +14,45 @@ def clean_money(dirty_money):
 def clean_team(dirty_team):
     return(dirty_team.replace(' Contracts',''))
 
-test_url = 'https://www.spotrac.com/epl/afc-bournemouth/contracts/'\
+with open('team_links.txt', 'r') as f:
 
-page_html = req.get(test_url).content
+    for link_root in f:
 
-page_soup = soup(page_html, 'html.parser')
+        test_url = link_root.strip()+'contracts/'
 
-rows = page_soup.findAll('table',{'class':'datatable'})[0].findAll('tr')[1:]
+        page_html = req.get(test_url).content
 
-team = clean_team(page_soup.findAll('div', {'class':'team-name'})[0].h1.text)
 
-for player_row in rows:
+        rows = page_soup.findAll('table',{'class':'datatable'})[0].findAll('tr')[1:]
 
-    row_td = player_row.findAll('td')
+        team = clean_team(page_soup.findAll('div', {'class':'team-name'})[0].h1.text)
 
-    # scrape player's name
-    player = row_td[0].a.text
+        for player_row in rows:
 
-    # scrape player's position
-    position = row_td[1].text
+            row_td = player_row.findAll('td')
 
-    # scrape player's age
-    age = row_td[2].text
+            # scrape player's name
+            player = row_td[0].a.text
 
-    # scrape total contract value
-    contract_value = row_td[3].span.text
+            # scrape player's position
+            position = row_td[1].text
 
-    # scrape contract length
-    contract_length = row_td[3].findAll('span')[1].text
+            # scrape player's age
+            age = row_td[2].text
 
-    # scrape transfer fee, then clean away '£' and ','
-    transfer_fee_dirty = row_td[5].span.text
-    transfer_fee = clean_money(transfer_fee_dirty)
+            # scrape total contract value
+            contract_value = row_td[3].span.text
 
-    # create list of variables for new row
-    new_row = [team, player, position, age, contract_value, contract_length, transfer_fee]
+            # scrape contract length
+            contract_length = row_td[3].findAll('span')[1].text
 
-    with open('epl_data.csv', 'a', newline= '') as f:
-        writer = csv.writer(f)
-        writer.writerow(new_row)
+            # scrape transfer fee, then clean away '£' and ','
+            transfer_fee_dirty = row_td[5].span.text
+            transfer_fee = clean_money(transfer_fee_dirty)
+
+            # create list of variables for new row
+            new_row = [team, player, position, age, contract_value, contract_length, transfer_fee]
+
+            with open('epl_data.csv', 'a', newline= '') as f:
+                writer = csv.writer(f)
+                writer.writerow(new_row)
