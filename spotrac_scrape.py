@@ -57,3 +57,6 @@ with open('team_links.txt', 'r') as f:
             with open('epl_data.csv', 'a', newline= '') as f:
                 writer = csv.writer(f)
                 writer.writerow(new_row)
+
+
+exit(0)
