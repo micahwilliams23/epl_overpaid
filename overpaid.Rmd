@@ -12,3 +12,8 @@ library(tidyverse)
 library(gt)
 ```
 
+```{r import}
+pay <- read_csv('data/pay_complete.csv')
+stats <- read_csv('data/stats_complete.csv')
+```
+
