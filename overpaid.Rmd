@@ -103,11 +103,12 @@ prem %>%
 prem$position <- prem$position %>%
   fct_relevel('GK','D','M','F')
 
-ggplot(prem, aes(position, contract_value/1000000)) +
-  geom_jitter(width = 0.3) +
+ggplot(prem, aes(position, contract_value/1000000, color = position)) +
+  geom_jitter(width = 0.25, alpha = 0.7) +
   labs(title = 'Contract Value by Field Position',
        y = 'Contract Value \n (in million $)',
-       x = 'Position')
+       x = 'Position') +
+  theme_minimal()
 ```
 
 
