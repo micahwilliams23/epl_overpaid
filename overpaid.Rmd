@@ -25,7 +25,8 @@ library(gt)
 pay_2020 <- read_csv('data/pay_complete.csv', na = c(NA, '', '-')) %>%
   mutate(contract_length = parse_number(contract_length),
          transfer_fee = 1.29*transfer_fee,
-         contract_value = 1.29*contract_value)
+         contract_value = 1.29*contract_value,
+         team = str_replace(team, 'F.C.',''))
 
 # import player statistics from '18-'19 season
 stats_2019 <- read_csv('data/stats_complete_2018.csv') %>% mutate('season' = 2019)
@@ -55,12 +56,15 @@ prem <- pay_2020 %>%
 rm(single_names, stats_2020, stats_2019)
 ```
 
+This table shows the top-paid player (by contract value) for each team in the English Premier League. Some of these players, like Manchester United Goalkeeper David De Gea or Manchester City Midfielder Kevin De Bruyne, are superstars. Others, like Burnley's James Tarkowski or Norwich's Grant Hanley, are less well-known.
 
-```{r}
+At 37 years old, Bournemouth's Jermaine Defoe is among the oldest players in the Premier League, but his hefty contract shows that the club still views him as a valuable asset.
+
+```{r top_paid}
 prem %>% 
   group_by(team) %>% 
   arrange(desc(contract_value)) %>%
-  select(team, player, position, age, contract_value) %>%
+  select(player, team, position, age, contract_value) %>%
   slice(1) %>%
   ungroup() %>%
   arrange(desc(contract_value)) %>%
@@ -73,7 +77,10 @@ prem %>%
              position = 'Position',
              age = 'Age',
              contract_value = 'Contract')
+```
 
+
+```{r}
 prem %>% 
   summarize(mean_age = round(mean(age, na.rm = TRUE),2),
             avg_games = round(mean(games),2),
@@ -89,4 +96,18 @@ prem %>%
              avg_contract = 'Contract (Million $)',
              avg_price = 'Contract + Transfer Fee (Million $)')
 ```
+
+
+
+```{r contract_by_position}
+prem$position <- prem$position %>%
+  fct_relevel('GK','D','M','F')
+
+ggplot(prem, aes(position, contract_value/1000000)) +
+  geom_jitter(width = 0.3) +
+  labs(title = 'Contract Value by Field Position',
+       y = 'Contract Value \n (in million $)',
+       x = 'Position')
+```
+
 
