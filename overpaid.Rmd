@@ -21,9 +21,11 @@ library(gt)
   # switch name order ('Firstname' 'Lastname' instead of 'Lastname' 'Firstname')
   # recombine in new column, drop original name columns
 
-# import contract data
+# import contract data - 1.29 = current pound-to-dollar exchange rate
 pay_2020 <- read_csv('data/pay_complete.csv', na = c(NA, '', '-')) %>%
-  mutate(contract_length = parse_number(contract_length))
+  mutate(contract_length = parse_number(contract_length),
+         transfer_fee = 1.29*transfer_fee,
+         contract_value = 1.29*contract_value)
 
 # import player statistics from '18-'19 season
 stats_2019 <- read_csv('data/stats_complete_2018.csv') %>% mutate('season' = 2019)
@@ -46,14 +48,45 @@ combined <- combined %>%
   select(-c(firstname, lastname)) %>%
   bind_rows(single_names)
 
+prem <- pay_2020 %>%
+  inner_join(combined, by = 'player') %>%
+  mutate('total_price' = contract_value + transfer_fee)
+
 rm(single_names, stats_2020, stats_2019)
 ```
 
 
 ```{r}
-prem <- pay_2020 %>%
-  inner_join(combined, by = 'player')
+prem %>% 
+  group_by(team) %>% 
+  arrange(desc(contract_value)) %>%
+  select(team, player, position, age, contract_value) %>%
+  slice(1) %>%
+  ungroup() %>%
+  arrange(desc(contract_value)) %>%
+  gt() %>%
+  cols_align('auto') %>%
+  fmt_currency(columns = vars(contract_value),
+               currency = 'USD') %>%
+  cols_label(team = 'Team',
+             player = 'Player',
+             position = 'Position',
+             age = 'Age',
+             contract_value = 'Contract')
 
-prem %>% summarize(mean_age = mean(age, na.rm = TRUE))
+prem %>% 
+  summarize(mean_age = round(mean(age, na.rm = TRUE),2),
+            avg_games = round(mean(games),2),
+            avg_contract = mean(contract_value)/1000000,
+            avg_price = mean(total_price, na.rm = TRUE)/1000000) %>%
+  gt() %>%
+  cols_align('center') %>%
+  tab_header(title = 'Averages') %>%
+  fmt_currency(columns = vars(avg_contract, avg_price),
+               currency = 'USD') %>%
+  cols_label(mean_age = 'Age (years)',
+             avg_games = 'Games Played',
+             avg_contract = 'Contract (Million $)',
+             avg_price = 'Contract + Transfer Fee (Million $)')
 ```
 
