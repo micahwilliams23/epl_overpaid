@@ -1,5 +1,5 @@
 ---
-title: "Premier League's Overpaid Players"
+title: "The Premier League's Most Overpaid Players"
 author: "Micah Williams"
 date: "2/20/2020"
 output: html_document
@@ -14,7 +14,6 @@ library(gt)
 ```
 
 ```{r import, message = F}
-# ISSUE: INCLUDE PLAYERS WITH SINGLE NAMES!! DO NOT FILTER THEM OUT PERMANENTLY
 
 # name cleaning process:
   # filter out single-named players (ex. Willian or Rodri)
@@ -27,31 +26,34 @@ pay_2020 <- read_csv('data/pay_complete.csv', na = c(NA, '', '-')) %>%
   mutate(contract_length = parse_number(contract_length))
 
 # import player statistics from '18-'19 season
-stats_2019 <- read_csv('data/stats_complete_2018.csv') %>%
-  mutate('season' = 2019) %>%
-  filter(str_detect(player, ',')) %>%
-  separate(player, c('lastname','firstname'), ', ') %>%
-  mutate(player = paste(firstname, lastname, sep = ' ')) %>%
-  select(player, everything()) %>%
-  select(-c(firstname, lastname))
+stats_2019 <- read_csv('data/stats_complete_2018.csv') %>% mutate('season' = 2019)
 
 # import player statistics from '19-'20 season
-stats_2020 <- read_csv('data/stats_complete.csv') %>%
-  mutate('season' = 2020) %>%
+stats_2020 <- read_csv('data/stats_complete.csv') %>% mutate('season' = 2020) 
+
+# combine '19-'20 data with '18-'19 data
+combined <- stats_2020 %>% bind_rows(stats_2019)
+
+# save rows with single-name players
+single_names <- combined %>% filter(!str_detect(player, ','))
+
+# clean player names
+combined <- combined %>%
   filter(str_detect(player, ',')) %>%
   separate(player, c('lastname','firstname'), ', ') %>%
   mutate(player = paste(firstname, lastname, sep = ' ')) %>%
   select(player, everything()) %>%
-  select(-c(firstname, lastname))
+  select(-c(firstname, lastname)) %>%
+  bind_rows(single_names)
 
-# combine '19-'20 data with '18-'19 data
-combined_stats <- stats_2020 %>%
-  bind_rows(stats_2019)
+rm(single_names, stats_2020, stats_2019)
 ```
 
 
 ```{r}
-full <- pay_2020 %>%
-  anti_join(combined_stats, by = 'player')
+prem <- pay_2020 %>%
+  inner_join(combined, by = 'player')
+
+prem %>% summarize(mean_age = mean(age, na.rm = TRUE))
 ```
 
