@@ -23,11 +23,11 @@ library(gridExtra)
   # recombine in new column, drop original name columns
 
 # import contract data - 1.29 = current pound-to-dollar exchange rate
-pay_2020 <- read_csv('data/pay_complete.csv', na = c(NA, '', '-')) %>%
+pay_2020 <- read_csv('data/contracts.csv', na = c(NA, '', '-')) %>%
   mutate(contract_length = parse_number(contract_length),
          transfer_fee = 1.29*transfer_fee,
          contract_value = 1.29*contract_value,
-         team = str_replace(team, 'F.C.',''))
+         team = str_replace(team, ' F.C.',''))
 
 # import player statistics from '18-'19 season
 stats_2019 <- read_csv('data/stats_complete_2018.csv') %>% mutate('season' = 2019)
@@ -51,8 +51,12 @@ combined <- combined %>%
   bind_rows(single_names)
 
 prem <- pay_2020 %>%
-  inner_join(combined, by = 'player') %>%
-  mutate('total_price' = contract_value + transfer_fee)
+  full_join(combined, by = 'player') %>%
+  mutate('total_price' = contract_value + transfer_fee,
+         team = trimws(team))
+
+# 
+pay_2020 %>% full_join(combined, by = 'player') %>% select(player)
 
 rm(single_names, stats_2020, stats_2019)
 ```
