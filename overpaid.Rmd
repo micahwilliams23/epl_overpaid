@@ -114,7 +114,7 @@ plot_all <- ggplot(prem %>% filter(contract_value > 0)
        x = 'Position') +
   theme_minimal()
 
-# plot_forwards <- 
+plot_forwards <-
   ggplot(prem %>% filter(position %in% c('M','F'),
                                  contract_value > 0,
                                  season == 2019),
@@ -126,7 +126,7 @@ plot_all <- ggplot(prem %>% filter(contract_value > 0)
     coord_flip() +
     labs(title = 'Contract Value vs. Goals Scored, \'18-\'19 season')
 
-# grid.arrange(plot_all, plot_forwards, ncol = 2)
+grid.arrange(plot_all, plot_forwards, ncol = 2)
 ```
 
 
