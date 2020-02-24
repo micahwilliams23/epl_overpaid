@@ -1,12 +1,12 @@
 from bs4 import BeautifulSoup as soup
 import requests as req
 import csv
+import unicodedata
 
-header = ['team','player','position','age','contract_value','contract_length','transfer_fee']
-
-with open('epl_data.csv', 'w', newline = '') as f:
-    writer = csv.writer(f)
-    writer.writerow(header)
+# below code chunk copied from BartoszKP on https://stackoverflow.com/questions/517923/what-is-the-best-way-to-remove-accents-in-a-python-unicode-string#2633310
+def strip_accents(s):
+   return ''.join(c for c in unicodedata.normalize('NFD', s)
+                  if unicodedata.category(c) != 'Mn')
 
 def clean_money(dirty_money):
     return(dirty_money.replace('£','').replace(',',''))
@@ -14,7 +14,13 @@ def clean_money(dirty_money):
 def clean_team(dirty_team):
     return(dirty_team.replace(' Contracts',''))
 
-with open('team_links.txt', 'r') as f:
+header = ['team','player','position','age','contract_value','contract_length','transfer_fee']
+
+with open('data/epl_data.csv', 'w', newline = '') as f:
+    writer = csv.writer(f)
+    writer.writerow(header)
+
+with open('data/team_links.txt', 'r') as f:
 
     for link_root in f:
 
@@ -33,7 +39,7 @@ with open('team_links.txt', 'r') as f:
             row_td = player_row.findAll('td')
 
             # scrape player's name
-            player = row_td[0].a.text
+            player = strip_accents(row_td[0].a.text)
 
             # scrape player's position
             position = row_td[1].text
@@ -54,6 +60,6 @@ with open('team_links.txt', 'r') as f:
             # create list of variables for new row
             new_row = [team, player, position, age, contract_value, contract_length, transfer_fee]
 
-            with open('epl_data.csv', 'a', newline= '') as f:
+            with open('data/epl_data.csv', 'a', newline= '') as f:
                 writer = csv.writer(f)
                 writer.writerow(new_row)

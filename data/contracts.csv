@@ -17,7 +17,7 @@ AFC Bournemouth,Charlie Daniels,D,33,5460000,3 yr,191000
 AFC Bournemouth,Junior Stanislas,F,30,5460000,3 yr,-
 AFC Bournemouth,Brad Smith,D,25,5200000,4 yr,3060000
 AFC Bournemouth,David Brooks,M,22,4160000,4 yr,10125000
-AFC Bournemouth,Diego Rico,D,26,4004000,4 yr,10750000
+AFC Bournemouth,Diego Rico,D,27,4004000,4 yr,10750000
 AFC Bournemouth,Dominic Solanke,F,22,3900000,3 yr,24170000
 AFC Bournemouth,Philip Billing,M,23,3900000,5 yr,18810000
 AFC Bournemouth,Simon Francis,D,35,3120000,2 yr,-
@@ -85,7 +85,7 @@ Aston Villa F.C.,Conor Hourihane,M,29,0,-,-
 Aston Villa F.C.,Frederic Guilbert,D,25,0,4 yr,5700000
 Aston Villa F.C.,Rushian Hepburn-Murphy,F,21,0,3 yr,-
 Aston Villa F.C.,Mbwana Samatta,F,27,0,5 yr,11550000
-Aston Villa F.C.,Borja Bast�n,F,27,0,1 yr,-
+Aston Villa F.C.,Borja Baston,F,27,0,1 yr,-
 Brighton & Hove Albion,Alireza Jahanbakhsh,F,26,13000000,5 yr,17100000
 Brighton & Hove Albion,Lewis Dunk,D,28,11700000,5 yr,-
 Brighton & Hove Albion,Jurgen Locadia,F,26,10530000,5 yr,15300000
@@ -114,7 +114,7 @@ Brighton & Hove Albion,Dan Burn,D,27,0,4 yr,-
 Brighton & Hove Albion,Percy Tau,F,25,0,4 yr,2850000
 Brighton & Hove Albion,Matt Clarke,D,23,0,4 yr,4450000
 Brighton & Hove Albion,Leandro Trossard,F,25,0,4 yr,22800000
-Brighton & Hove Albion,Viktor Gy�keres,F,21,0,3 yr,-
+Brighton & Hove Albion,Viktor Gyokeres,F,21,0,3 yr,-
 Brighton & Hove Albion,Neal Maupay,F,23,0,-,22800000
 Brighton & Hove Albion,Adam Webster,D,25,0,4 yr,24910000
 Brighton & Hove Albion,Tariq Lamptey,D,19,0,4 yr,3630000
@@ -146,7 +146,7 @@ Chelsea F.C.,Kepa Arrizabalaga,GK,25,54600000,7 yr,71900000
 Chelsea F.C.,Christian Pulisic,F,21,41470000,6 yr,72960000
 Chelsea F.C.,N'Golo Kante,M,28,39000000,5 yr,35800000
 Chelsea F.C.,Ross Barkley,M,26,28600000,6 yr,15210000
-Chelsea F.C.,Tiemou� Bakayoko,M,25,28600000,5 yr,40000000
+Chelsea F.C.,Tiemoue Bakayoko,M,25,28600000,5 yr,40000000
 Chelsea F.C.,Jorge Luiz Frello Filho,M,28,28600000,5 yr,50500000
 Chelsea F.C.,Mateo Kovacic,M,25,27735000,5 yr,51300000
 Chelsea F.C.,Marcos Alonso,D,29,26000000,5 yr,23000000
@@ -157,12 +157,12 @@ Chelsea F.C.,Michy Batshuayi,F,26,23400000,5 yr,31500000
 Chelsea F.C.,Baba Rahman,D,25,22360000,5 yr,17500000
 Chelsea F.C.,Victor Moses,D,29,19500000,5 yr,11500000
 Chelsea F.C.,Mason Mount,M,21,19500000,5 yr,-
-Chelsea F.C.,C�sar Azpilicueta,D,30,18720000,4 yr,8800000
+Chelsea F.C.,Cesar Azpilicueta,D,30,18720000,4 yr,8800000
 Chelsea F.C.,Andreas Christensen,D,23,16640000,4 yr,-
 Chelsea F.C.,Davide Zappacosta,D,27,14560000,4 yr,25750000
 Chelsea F.C.,Tammy Abraham,F,22,13000000,5 yr,-
 Chelsea F.C.,Kurt Zouma,D,25,12480000,6 yr,12400000
-Chelsea F.C.,Pedro Rodr�guez Ledesma,M,32,10400000,2 yr,27000000
+Chelsea F.C.,Pedro Rodriguez Ledesma,M,32,10400000,2 yr,27000000
 Chelsea F.C.,Emerson Palmieri,D,25,9828000,5 yr,18000000
 Chelsea F.C.,Ruben Loftus-Cheek,F,24,9100000,5 yr,-
 Chelsea F.C.,Robert Kenedy,M,24,6500000,5 yr,7000000
@@ -175,7 +175,7 @@ Chelsea F.C.,Jamal Blackman,GK,26,2080000,5 yr,-
 Chelsea F.C.,Ethan Ampadu,M,19,1950000,5 yr,2520000
 Chelsea F.C.,Willy Caballero,GK,38,1560000,1 yr,-
 Chelsea F.C.,Jake Clarke-Salter,D,22,1040000,4 yr,-
-Chelsea F.C.,Lucas Piaz�n,F,26,0,3 yr,-
+Chelsea F.C.,Lucas Piazon,F,26,0,3 yr,-
 Chelsea F.C.,Mario Pasalic,M,25,0,3 yr,2200000
 Chelsea F.C.,Danilo Pantic,M,23,0,6 yr,-
 Chelsea F.C.,Callum Hudson-Odoi,F,19,0,5 yr,-
@@ -201,7 +201,7 @@ Crystal Palace,James McCarthy,M,29,7800000,3 yr,3760000
 Crystal Palace,Wayne Hennessey,GK,33,6240000,3 yr,3100000
 Crystal Palace,Joel Ward,D,30,5460000,3 yr,553000
 Crystal Palace,Jordan Ayew,F,28,5070000,3 yr,3190000
-Crystal Palace,Alexander S�rloth,F,24,4680000,5 yr,7020000
+Crystal Palace,Alexander Sorloth,F,24,4680000,5 yr,7020000
 Crystal Palace,Martin Kelly,D,29,2600000,2 yr,1700000
 Crystal Palace,Gary Cahill,D,34,0,2 yr,-
 Crystal Palace,Fraizer Campbell,F,32,0,3 yr,969000
@@ -224,7 +224,7 @@ Everton F.C.,Cenk Tosun,F,28,15600000,5 yr,1980000
 Everton F.C.,Seamus Coleman,D,31,14560000,4 yr,-
 Everton F.C.,Oumar Niasse,F,29,14300000,5 yr,15220000
 Everton F.C.,Moise Kean,F,19,13825000,5 yr,31350000
-Everton F.C.,Sandro Ram�rez,F,24,13520000,4 yr,5100000
+Everton F.C.,Sandro Ramirez,F,24,13520000,4 yr,5100000
 Everton F.C.,Alex Iwobi,F,23,13000000,5 yr,34660000
 Everton F.C.,Fabian Delph,M,30,12480000,3 yr,10830000
 Everton F.C.,Luke Garbutt,D,26,7280000,5 yr,-
@@ -265,7 +265,7 @@ Leicester City,Marc Albrighton,M,30,7020000,3 yr,-
 Leicester City,Youri Tielemans,M,22,6872000,4 yr,51300000
 Leicester City,Matty James,M,28,5200000,4 yr,1100000
 Leicester City,Danny Ward,GK,26,4160000,4 yr,12600000
-Leicester City,Fousseni Diabat�,M,24,3900000,5 yr,1800000
+Leicester City,Fousseni Diabate,M,24,3900000,5 yr,1800000
 Leicester City,Eldin Jakupovic,GK,35,3588000,3 yr,-
 Leicester City,Daniel Amartey,M,25,3276000,3 yr,5610000
 Leicester City,Wes Morgan,D,36,3120000,1 yr,-
@@ -273,7 +273,7 @@ Leicester City,Christian Fuchs,D,33,2600000,1 yr,-
 Leicester City,Harvey Barnes,M,22,2600000,5 yr,-
 Leicester City,Hamza Choudhury,M,23,1560000,4 yr,-
 Leicester City,Filip Benkovic,D,22,0,5 yr,13000000
-Leicester City,James Justin,D,21,0,5 yr,-
+Leicester City,James Justin,D,22,0,5 yr,-
 Leicester City,Dennis Praet,M,25,0,5 yr,23940000
 Liverpool F.C.,Mohamed Salah,F,27,52000000,5 yr,35700000
 Liverpool F.C.,Virgil Van Dijk,D,28,51480000,6 yr,70920000
@@ -308,8 +308,8 @@ Manchester City F.C.,Kevin De Bruyne,M,28,100100000,6 yr,62900000
 Manchester City F.C.,Raheem Sterling,M,25,62400000,4 yr,53130000
 Manchester City F.C.,Bernardo Silva,M,25,46800000,6 yr,43800000
 Manchester City F.C.,Aymeric Laporte,D,25,37440000,6 yr,58500000
-Manchester City F.C.,Rodrigo Hern�ndez Cascante,M,23,31500000,5 yr,79800000
-Manchester City F.C.,Riyad Mahrez,M,28,31200000,5 yr,60100000
+Manchester City F.C.,Rodrigo Hernandez Cascante,M,23,31500000,5 yr,79800000
+Manchester City F.C.,Riyad Mahrez,M,29,31200000,5 yr,60100000
 Manchester City F.C.,John Stones,D,25,31200000,6 yr,47260000
 Manchester City F.C.,Nicolas Otamendi,D,32,31200000,5 yr,37910000
 Manchester City F.C.,Ilkay Gundogan,M,29,29120000,4 yr,22950000
@@ -349,9 +349,9 @@ Manchester United F.C.,Frederico de Paula Santos,M,26,31200000,5 yr,52000000
 Manchester United F.C.,Aaron Wan-Bissaka,D,22,23400000,5 yr,62700000
 Manchester United F.C.,Nemanja Matic,M,31,18720000,3 yr,38000000
 Manchester United F.C.,Juan Mata,M,31,16640000,2 yr,38020000
-Manchester United F.C.,Phil Jones,D,27,15600000,4 yr,16410000
+Manchester United F.C.,Phil Jones,D,28,15600000,4 yr,16410000
 Manchester United F.C.,Jesse Lingard,M,27,15600000,4 yr,-
-Manchester United F.C.,Sergio Romero,GK,32,14560000,4 yr,-
+Manchester United F.C.,Sergio Romero,GK,33,14560000,4 yr,-
 Manchester United F.C.,Eric Bailly,D,25,12480000,3 yr,32300000
 Manchester United F.C.,Marcos Rojo,D,29,12480000,3 yr,17000000
 Manchester United F.C.,Chris Smalling,D,30,10920000,3 yr,6800000
@@ -385,7 +385,7 @@ Newcastle United F.C.,Fabian Schar,D,28,6240000,3 yr,3600000
 Newcastle United F.C.,Isaac Hayden,M,24,5720000,5 yr,2470000
 Newcastle United F.C.,Javier Manquillo,D,25,5460000,3 yr,4500000
 Newcastle United F.C.,Rob Elliot,GK,33,5200000,4 yr,-
-Newcastle United F.C.,Federico Fernandez,D,30,4472000,2 yr,6000000
+Newcastle United F.C.,Federico Fernandez,D,31,4472000,2 yr,6000000
 Newcastle United F.C.,Ki Sung-yueng,M,31,4160000,2 yr,-
 Newcastle United F.C.,Rolando Aarons,F,24,3640000,5 yr,-
 Newcastle United F.C.,Freddie Woodman,GK,22,936000,6 yr,-
@@ -393,7 +393,7 @@ Newcastle United F.C.,Jamie Sterry,D,24,416000,4 yr,-
 Newcastle United F.C.,Andy Carroll,F,31,0,1 yr,-
 Newcastle United F.C.,Martin Dubravka,GK,31,0,6 yr,4000000
 Newcastle United F.C.,Dan Barlaser,M,23,0,1 yr,-
-Newcastle United F.C.,Joelinton Cassio Apolin�rio de Lira,F,23,0,6 yr,50160000
+Newcastle United F.C.,Joelinton Cassio Apolinario de Lira,F,23,0,6 yr,50160000
 Newcastle United F.C.,Allan Saint-Maximin,F,22,0,6 yr,20520000
 Newcastle United F.C.,Jetro Willems,D,25,0,1 yr,-
 Newcastle United F.C.,Emil Krafth,D,25,0,4 yr,6160000
@@ -408,10 +408,10 @@ Norwich City F.C.,Mortiz Leitner,M,,2496000,4 yr,1350000
 Norwich City F.C.,Tom Trybull,M,26,2340000,3 yr,-
 Norwich City F.C.,Mario Vrancic,M,30,2080000,2 yr,675000
 Norwich City F.C.,Kenny McLean,M,28,2080000,4 yr,203000
-Norwich City F.C.,Emiliano Buend�a,F,23,2080000,5 yr,1350000
+Norwich City F.C.,Emiliano Buendia,F,23,2080000,5 yr,1350000
 Norwich City F.C.,Michael McGovern,GK,35,1768000,2 yr,-
 Norwich City F.C.,Ben Marshall,M,28,1664000,4 yr,1530000
-Norwich City F.C.,Onel Hern�ndez,F,27,1664000,4 yr,-
+Norwich City F.C.,Onel Hernandez,F,27,1664000,4 yr,-
 Norwich City F.C.,Alexander Tettey,M,33,1352000,2 yr,-
 Norwich City F.C.,Max Aarons,D,20,1300000,5 yr,-
 Norwich City F.C.,Teemu Pukki,F,29,1248000,3 yr,-
@@ -423,7 +423,7 @@ Norwich City F.C.,Aston Oxborough,GK,21,0,2 yr,-
 Norwich City F.C.,Sean Raggett,D,25,0,3 yr,-
 Norwich City F.C.,James Husband,D,,0,3 yr,990000
 Norwich City F.C.,Carlton Morris,F,24,0,2 yr,-
-Norwich City F.C.,Ralf F�hrmann,GK,31,0,1 yr,-
+Norwich City F.C.,Ralf Fahrmann,GK,31,0,1 yr,-
 Norwich City F.C.,Josip Drmic,F,27,0,3 yr,-
 Norwich City F.C.,Rocky Bushiri,D,20,0,4 yr,-
 Norwich City F.C.,Ibrahim Amadou,M,26,0,1 yr,-
@@ -480,7 +480,7 @@ Southampton F.C.,Jan Bednarek,D,23,5200000,5 yr,5100000
 Southampton F.C.,Sam McQueen,D,25,4680000,5 yr,-
 Southampton F.C.,Harrison Reed,M,25,3744000,6 yr,-
 Southampton F.C.,Josh Sims,M,22,3744000,4 yr,-
-Southampton F.C.,Yan Valery,D,20,416000,4 yr,-
+Southampton F.C.,Yan Valery,D,21,416000,4 yr,-
 Southampton F.C.,Jack Rose,GK,25,0,2 yr,-
 Southampton F.C.,Guido Carrillo,F,28,0,4 yr,19800000
 Southampton F.C.,Moussa Djenepo,F,21,0,4 yr,17900000
@@ -514,14 +514,14 @@ Tottenham Hotspur F.C.,Jack Clarke,F,19,0,4 yr,12540000
 Tottenham Hotspur F.C.,Japhet Tanganga,D,20,0,1 yr,-
 Tottenham Hotspur F.C.,Steven Bergwijn,F,22,0,6 yr,33000000
 Watford,Andre Gray,F,28,18200000,5 yr,18400000
-Watford,Abdoulaye Doucour�,M,27,18200000,5 yr,8000000
+Watford,Abdoulaye Doucoure,M,27,18200000,5 yr,8000000
 Watford,Troy Deeney,F,31,16900000,5 yr,-
 Watford,Tom Cleverley,M,30,13000000,5 yr,7910000
 Watford,Roberto Pereyra,M,29,11700000,5 yr,11432200
 Watford,Sebastian Prodl,D,32,9360000,4 yr,-
 Watford,Daryl Janmaat,D,30,9360000,4 yr,7570000
 Watford,Nathaniel Chalobah,M,25,9100000,5 yr,-
-Watford,�tienne Capoue,M,31,8320000,4 yr,6300000
+Watford,Etienne Capoue,M,31,8320000,4 yr,6300000
 Watford,Christian Kabasele,D,28,7800000,5 yr,5910000
 Watford,Will Hughes,M,24,7800000,5 yr,7740000
 Watford,Adam Masina,D,26,7280000,5 yr,4500000
@@ -530,7 +530,7 @@ Watford,Isaac Success,F,24,6240000,4 yr,13200000
 Watford,Marc Navarro,D,24,5980000,5 yr,1800000
 Watford,Jerome Sinclair,M,23,5200000,5 yr,-
 Watford,Craig Cathcart,D,31,4780000,4 yr,-
-Watford,Adalberto Pe�aranda,F,22,4680000,5 yr,9500000
+Watford,Adalberto Penaranda,F,22,4680000,5 yr,9500000
 Watford,Kiko Femenia,D,29,4160000,4 yr,-
 Watford,Ken Sema,M,26,3900000,5 yr,1996000
 Watford,Jose Holebas,D,35,3120000,2 yr,2130000
@@ -576,8 +576,8 @@ West Ham United F.C.,Darren Randolph,GK,32,0,4 yr,5170000
 West Ham United F.C.,Joao Mario,M,27,0,1 yr,-
 West Ham United F.C.,Jordan Hugill,F,27,0,5 yr,9180000
 West Ham United F.C.,David Martin,GK,34,0,2 yr,-
-West Ham United F.C.,Roberto Jim�nez Gago,GK,34,0,2 yr,-
-West Ham United F.C.,Pablo Fornals,M,23,0,5 yr,31920000
+West Ham United F.C.,Roberto Jimenez Gago,GK,34,0,2 yr,-
+West Ham United F.C.,Pablo Fornals,M,24,0,5 yr,31920000
 West Ham United F.C.,Sebastien Haller,F,25,0,5 yr,45600000
 West Ham United F.C.,Goncalo Cardoso,D,19,0,5 yr,3420000
 West Ham United F.C.,Albian Ajeti,F,22,0,4 yr,9920000
