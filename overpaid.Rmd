@@ -1,5 +1,5 @@
 ---
-title: "Premier League's Overpaid Players"
+title: "The Premier League's Most Overpaid Players"
 author: "Micah Williams"
 date: "2/20/2020"
 output: html_document
@@ -9,11 +9,124 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE)
 library(readr)
 library(tidyverse)
+library(dplyr)
 library(gt)
+library(gridExtra)
 ```
 
-```{r import}
-pay <- read_csv('data/pay_complete.csv')
-stats <- read_csv('data/stats_complete.csv')
+```{r import, message = F}
+
+# name cleaning process:
+  # filter out single-named players (ex. Willian or Rodri)
+  # separate first name from last name
+  # switch name order ('Firstname' 'Lastname' instead of 'Lastname' 'Firstname')
+  # recombine in new column, drop original name columns
+
+# import contract data - 1.29 = current pound-to-dollar exchange rate
+pay_2020 <- read_csv('data/pay_complete.csv', na = c(NA, '', '-')) %>%
+  mutate(contract_length = parse_number(contract_length),
+         transfer_fee = 1.29*transfer_fee,
+         contract_value = 1.29*contract_value,
+         team = str_replace(team, 'F.C.',''))
+
+# import player statistics from '18-'19 season
+stats_2019 <- read_csv('data/stats_complete_2018.csv') %>% mutate('season' = 2019)
+
+# import player statistics from '19-'20 season
+stats_2020 <- read_csv('data/stats_complete.csv') %>% mutate('season' = 2020) 
+
+# combine '19-'20 data with '18-'19 data
+combined <- stats_2020 %>% bind_rows(stats_2019)
+
+# save rows with single-name players
+single_names <- combined %>% filter(!str_detect(player, ','))
+
+# clean player names
+combined <- combined %>%
+  filter(str_detect(player, ',')) %>%
+  separate(player, c('lastname','firstname'), ', ') %>%
+  mutate(player = paste(firstname, lastname, sep = ' ')) %>%
+  select(player, everything()) %>%
+  select(-c(firstname, lastname)) %>%
+  bind_rows(single_names)
+
+prem <- pay_2020 %>%
+  inner_join(combined, by = 'player') %>%
+  mutate('total_price' = contract_value + transfer_fee)
+
+rm(single_names, stats_2020, stats_2019)
 ```
+
+This table shows the top-paid player (by contract value) for each team in the English Premier League. Some of these players, like Manchester United Goalkeeper David De Gea or Manchester City Midfielder Kevin De Bruyne, are superstars. Others, like Burnley's James Tarkowski or Norwich's Grant Hanley, are less well-known.
+
+At 37 years old, Bournemouth's Jermaine Defoe is among the oldest players in the Premier League, but his hefty contract shows that the club still views him as a valuable asset.
+
+```{r top_paid}
+prem %>% 
+  group_by(team) %>% 
+  arrange(desc(contract_value)) %>%
+  select(player, team, position, age, contract_value) %>%
+  slice(1) %>%
+  ungroup() %>%
+  arrange(desc(contract_value)) %>%
+  gt() %>%
+  cols_align('auto') %>%
+  fmt_currency(columns = vars(contract_value),
+               currency = 'USD') %>%
+  cols_label(team = 'Team',
+             player = 'Player',
+             position = 'Position',
+             age = 'Age',
+             contract_value = 'Contract')
+```
+
+
+```{r}
+prem %>% 
+  summarize(mean_age = round(mean(age, na.rm = TRUE),2),
+            avg_games = round(mean(games),2),
+            avg_contract = mean(contract_value)/1000000,
+            avg_price = mean(total_price, na.rm = TRUE)/1000000) %>%
+  gt() %>%
+  cols_align('center') %>%
+  tab_header(title = 'Averages') %>%
+  fmt_currency(columns = vars(avg_contract, avg_price),
+               currency = 'USD') %>%
+  cols_label(mean_age = 'Age (years)',
+             avg_games = 'Games Played',
+             avg_contract = 'Contract (Million $)',
+             avg_price = 'Contract + Transfer Fee (Million $)')
+```
+
+
+
+```{r contract_by_position}
+prem$position <- prem$position %>%
+  fct_relevel('GK','D','M','F')
+
+par(mfrow = c(1,2))
+
+plot_all <- ggplot(prem %>% filter(contract_value > 0)
+                   , aes(position, contract_value/1000000, color = position)) +
+  geom_jitter(width = 0.25, alpha = 0.7) +
+  labs(title = 'Contract Value by Field Position',
+       y = 'Contract Value \n (in million $)',
+       x = 'Position') +
+  theme_minimal()
+
+plot_forwards <-
+  ggplot(prem %>% filter(position %in% c('M','F'),
+                                 contract_value > 0,
+                                 season == 2019),
+    aes(contract_value, goals, color = position)) +
+    # facet_wrap(vars(position)) +
+    geom_jitter() +
+    theme_minimal() + 
+    scale_x_log10() +
+    coord_flip() +
+    labs(title = 'Contract Value vs. Goals Scored, \'18-\'19 season')
+
+grid.arrange(plot_all, plot_forwards, ncol = 2)
+```
+
 
