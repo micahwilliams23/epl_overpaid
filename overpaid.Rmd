@@ -82,11 +82,11 @@ prem %>%
 ```
 
 
-```{r}
+```{r, include = F}
 prem %>% 
-  summarize(mean_age = round(mean(age, na.rm = TRUE),2),
-            avg_games = round(mean(games),2),
-            avg_contract = mean(contract_value)/1000000,
+  summarize(mean_age = round(mean(age, na.rm = TRUE)),
+            avg_games = round(mean(games, na.rm = TRUE)),
+            avg_contract = mean(contract_value, na.rm = TRUE)/1000000,
             avg_price = mean(total_price, na.rm = TRUE)/1000000) %>%
   gt() %>%
   cols_align('center') %>%
@@ -104,7 +104,6 @@ prem %>%
 missing <- prem %>%
   filter(is.na(contract_value)) %>%
   mutate(split_names = str_split(player, ' |-'))
-glimpse(missing)
 ```
 
 
@@ -118,25 +117,29 @@ par(mfrow = c(1,2))
 
 plot_all <- ggplot(prem %>% filter(contract_value > 0)
                    , aes(position, contract_value/1000000, color = position)) +
-  geom_jitter(width = 0.25, alpha = 0.7) +
+  geom_boxplot() +
+  geom_jitter(width = 0.25, alpha = 0.2) +
   labs(title = 'Contract Value by Field Position',
        y = 'Contract Value \n (in million $)',
        x = 'Position') +
-  theme_minimal()
+  theme_minimal() +
+  scale_y_log10()
 
 plot_forwards <-
   ggplot(prem %>% filter(position %in% c('M','F'),
-                                 contract_value > 0,
+                                 !is.na(contract_value),
                                  season == 2019),
     aes(contract_value, goals, color = position)) +
     # facet_wrap(vars(position)) +
     geom_jitter() +
     theme_minimal() + 
-    scale_x_log10() +
+    labs(title = 'Contract Value vs. Goals Scored, \'18-\'19 season',
+         y = 'Goals Scored',
+         x = 'Contract Value') +
     coord_flip() +
-    labs(title = 'Contract Value vs. Goals Scored, \'18-\'19 season')
+    scale_x_log10()
 
-grid.arrange(plot_all, plot_forwards, ncol = 2)
+plot_all; plot_forwards
 ```
 
 
