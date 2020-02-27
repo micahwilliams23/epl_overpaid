@@ -9,4 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-My project is to compare the salaries of players in the English Premier League to their performace metrics to identify players who are possibly over/underpaid. I scraped data on metrics like goals, assists, and shots from [Fox Sports](https://www.foxsports.com/soccer/stats?competition=1&season=20190&category=STANDARD&pos=0&team=0&isOpp=0&sort=3&sortOrder=0&page=1) and player contract data from [Spotrac](https://www.spotrac.com/epl/contracts/).
+My project is to compare the salaries of players in the English Premier League to their performace metrics to identify players who are possibly over/underpaid. I scraped metrics like goals, assists, and shots from [Fox Sports](https://www.foxsports.com/soccer/stats?competition=1&season=20190&category=STANDARD&pos=0&team=0&isOpp=0&sort=3&sortOrder=0&page=1) and scraped player contract data from [Spotrac](https://www.spotrac.com/epl/contracts/). I then joined these two datasets together to analyze player performance.
+
+One issue with this project so far is that the performance statistics are geared towards players in attacking positions. I hope to gather more data on defensive performance and combine it with my data to expand the reach of this analysis. 
+
+I tried to start analyzing my data... I have code to join the datasets and create exploratory plots in overpaid.rmd.
