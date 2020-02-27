@@ -11,7 +11,7 @@ library(readr)
 library(tidyverse)
 library(dplyr)
 library(gt)
-library(gridExtra)
+library(tools)
 ```
 
 ```{r import, message = F}
@@ -54,9 +54,6 @@ prem <- pay_2020 %>%
   full_join(combined, by = 'player') %>%
   mutate('total_price' = contract_value + transfer_fee,
          team = trimws(team))
-
-# 
-pay_2020 %>% full_join(combined, by = 'player') %>% select(player)
 
 rm(single_names, stats_2020, stats_2019)
 ```
@@ -101,6 +98,15 @@ prem %>%
              avg_contract = 'Contract (Million $)',
              avg_price = 'Contract + Transfer Fee (Million $)')
 ```
+
+
+```{r}
+missing <- prem %>%
+  filter(is.na(contract_value)) %>%
+  mutate(split_names = str_split(player, ' |-'))
+glimpse(missing)
+```
+
 
 
 
