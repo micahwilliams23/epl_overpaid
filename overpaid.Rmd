@@ -12,6 +12,7 @@ library(tidyverse)
 library(dplyr)
 library(gt)
 library(tools)
+library(fastLink)
 ```
 
 ```{r import, message = F}
@@ -45,17 +46,31 @@ single_names <- combined %>% filter(!str_detect(player, ','))
 combined <- combined %>%
   filter(str_detect(player, ',')) %>%
   separate(player, c('lastname','firstname'), ', ') %>%
-  mutate(player = paste(firstname, lastname, sep = ' ')) %>%
+  mutate(player = paste(firstname, lastname, sep = ' '),
+         player = str_replace(player, 'Son Heung-min', 'Heung-Min Son')) %>%
   select(player, everything()) %>%
   select(-c(firstname, lastname)) %>%
   bind_rows(single_names)
 
-prem <- pay_2020 %>%
-  full_join(combined, by = 'player') %>%
-  mutate('total_price' = contract_value + transfer_fee,
-         team = trimws(team))
+# prem <- pay_2020 %>%
+#   inner_join(combined, by = 'player') %>%
+#   mutate('total_price' = contract_value + transfer_fee,
+#          team = trimws(team))
 
-rm(single_names, stats_2020, stats_2019)
+matches.out <- fastLink(
+  dfA = combined, dfB = pay_2020,
+  varnames = c('player'),
+  stringdist.match = c('player')
+)
+
+prem <- getMatches(
+  dfA = combined, dfB = pay_2020,
+  fl.out = matches.out, threshold.match = 0.65
+) %>%
+  mutate('total_price' = contract_value + transfer_fee) %>%
+  select(-c(gamma.1,posterior))
+
+rm(single_names, stats_2020, stats_2019, matches.out)
 ```
 
 This table shows the top-paid player (by contract value) for each team in the English Premier League. Some of these players, like Manchester United Goalkeeper David De Gea or Manchester City Midfielder Kevin De Bruyne, are superstars. Others, like Burnley's James Tarkowski or Norwich's Grant Hanley, are less well-known.
@@ -64,6 +79,7 @@ At 37 years old, Bournemouth's Jermaine Defoe is among the oldest players in the
 
 ```{r top_paid}
 prem %>% 
+  filter(!is.na(team)) %>%
   group_by(team) %>% 
   arrange(desc(contract_value)) %>%
   select(player, team, position, age, contract_value) %>%
@@ -101,9 +117,19 @@ prem %>%
 
 
 ```{r}
-missing <- prem %>%
-  filter(is.na(contract_value)) %>%
-  mutate(split_names = str_split(player, ' |-'))
+missing_contract <- pay_2020 %>%
+  anti_join(prem, by = 'player')
+
+missing_stats <- combined %>%
+  anti_join(prem, by = 'player')
+```
+
+
+```{r find_missing}
+findmissing <- function(test_string){
+  missing_contract %>% filter(str_detect(player, test_string)) %>% pull(player)
+  missing_stats %>% filter(str_detect(player, test_string)) %>% pull(player)
+}
 ```
 
 
