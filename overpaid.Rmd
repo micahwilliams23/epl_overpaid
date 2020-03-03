@@ -13,6 +13,7 @@ library(dplyr)
 library(gt)
 library(tools)
 library(fastLink)
+library(magrittr)
 ```
 
 ```{r import, message = F}
@@ -129,6 +130,10 @@ missing_stats <- combined %>%
 findmissing <- function(test_string){
   missing_contract %>% filter(str_detect(player, test_string)) %>% pull(player)
   missing_stats %>% filter(str_detect(player, test_string)) %>% pull(player)
+  return(list(
+    missing_contract,
+    missing_stats
+  ))
 }
 ```
 
@@ -168,4 +173,49 @@ plot_forwards <-
 plot_all; plot_forwards
 ```
 
+
+```{r, include = F}
+prem <- prem %>%
+  filter(position %in% c('M','F'),
+         goals != 0,
+         season == 2020) %>%
+  mutate('cost_per_goal' = contract_value/goals)
+
+prem$player <- reorder(prem$player, prem$cost_per_goal)
+
+# prem %>%
+#   select(player, cost_per_goal) %>%
+#   # head() %>%
+#   gt()
+
+ggplot(prem %>% filter(cost_per_goal > 0), aes(player, cost_per_goal, fill = goals)) +
+  scale_fill_viridis_c(option = 'A', direction = 1) +
+  geom_col() +
+  theme_classic() +
+  theme(axis.text.x = element_blank(),
+        axis.line.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  labs(title = 'Cost per Goal Scored',
+       x = '', y = 'Cost per Goal Scored')
+
+
+```
+
+```{r}
+f_m <- prem %>% filter(position %in% c('M','F'))
+
+get_performance <- function(goals, assists, shots, shots_on_goal, yellow, red){
+    goals * 10 +
+    assists * 5 +
+    shots_on_goal * 2 +
+    shots * 1 +
+    yellow * -2 +
+    red * -1
+}
+
+
+f_m %<>% mutate('performance' = get_performance(goals, assists, shots, shots_on_goal, yellow, red))
+
+f_m %>% arrange(desc(performance)) %>% slice(1:10)
+```
 
