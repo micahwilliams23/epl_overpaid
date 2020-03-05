@@ -16,7 +16,7 @@ library(fastLink)
 library(magrittr)
 ```
 
-```{r import, message = F}
+```{r import, message = F, include = F}
 
 # name cleaning process:
   # filter out single-named players (ex. Willian or Rodri)
@@ -53,11 +53,6 @@ combined <- combined %>%
   select(-c(firstname, lastname)) %>%
   bind_rows(single_names)
 
-# prem <- pay_2020 %>%
-#   inner_join(combined, by = 'player') %>%
-#   mutate('total_price' = contract_value + transfer_fee,
-#          team = trimws(team))
-
 matches.out <- fastLink(
   dfA = combined, dfB = pay_2020,
   varnames = c('player'),
@@ -66,10 +61,8 @@ matches.out <- fastLink(
 
 prem <- getMatches(
   dfA = combined, dfB = pay_2020,
-  fl.out = matches.out, threshold.match = 0.65
-) %>%
-  mutate('total_price' = contract_value + transfer_fee) %>%
-  select(-c(gamma.1,posterior))
+  fl.out = matches.out, threshold.match = 0.65) %>%
+  mutate('total_price' = contract_value + transfer_fee)
 
 rm(single_names, stats_2020, stats_2019, matches.out)
 ```
@@ -78,24 +71,32 @@ This table shows the top-paid player (by contract value) for each team in the En
 
 At 37 years old, Bournemouth's Jermaine Defoe is among the oldest players in the Premier League, but his hefty contract shows that the club still views him as a valuable asset.
 
-```{r top_paid}
-prem %>% 
+```{r top_paid, fig.width = 11, fig.height = 3}
+top_paid <- prem %>% 
   filter(!is.na(team)) %>%
   group_by(team) %>% 
   arrange(desc(contract_value)) %>%
-  select(player, team, position, age, contract_value) %>%
   slice(1) %>%
   ungroup() %>%
-  arrange(desc(contract_value)) %>%
-  gt() %>%
-  cols_align('auto') %>%
-  fmt_currency(columns = vars(contract_value),
-               currency = 'USD') %>%
-  cols_label(team = 'Team',
-             player = 'Player',
-             position = 'Position',
-             age = 'Age',
-             contract_value = 'Contract')
+  arrange(desc(contract_value)) 
+ 
+ggplot(top_paid, aes(x = contract_value, y = 1, fill = team)) +
+  geom_col(position = position_dodge2(padding = 0.5)) +
+  theme_classic() +
+  scale_x_log10() +
+  annotate('text',
+           x = top_paid$contract_value, y = 1,
+           label = top_paid$team,
+           angle = -90, vjust = 1, hjust = 0,
+           size = 3.5) +
+  expand_limits(y = 1.5) +
+  theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.line.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.direction = 'horizontal',
+        legend.position = 'none') +
+  labs(title = 'Contract Value of Each Team\'s Highest Paid Player')
 ```
 
 
@@ -202,9 +203,11 @@ ggplot(prem %>% filter(cost_per_goal > 0), aes(player, cost_per_goal, fill = goa
 ```
 
 ```{r}
-f_m <- prem %>% filter(position %in% c('M','F'))
+f_m <- prem %>% filter(position %in% c('M','F'),
+                       !is.na(contract_value),
+                       contract_value != 0)
 
-get_performance <- function(goals, assists, shots, shots_on_goal, yellow, red){
+get_performance <- function(goals, assists, shots, shots_on_goal, yellow, red, na.rm = TRUE){
     goals * 10 +
     assists * 5 +
     shots_on_goal * 2 +
@@ -214,8 +217,35 @@ get_performance <- function(goals, assists, shots, shots_on_goal, yellow, red){
 }
 
 
-f_m %<>% mutate('performance' = get_performance(goals, assists, shots, shots_on_goal, yellow, red))
+f_m %<>% mutate('performance' = get_performance(goals, assists, shots, shots_on_goal, yellow, red),
+                'performance_cost' = performance / (contract_value / 10000000)) %>%
+  arrange(performance_cost) %>%
+  slice(1:5, 111:116)
 
-f_m %>% arrange(desc(performance)) %>% slice(1:10)
+f_m %>% gt()
+```
+
+
+```{r value_plot}
+best_value <- f_m %>%
+  arrange(desc(performance_cost)) %>%
+  group_by(team) %>%
+  slice(1)
+
+new_team_order <- reorder(best_value$team, best_value$performance_cost)
+
+f_m$team <- factor(f_m$team, levels(new_team_order))
+
+ggplot(f_m, aes(team, performance_cost, color = log(performance_cost))) +
+  geom_point() +
+  scale_color_continuous(low = '#990055', high = '#4477ff') +
+  scale_y_log10() +
+  theme_minimal() +
+  theme(legend.position = 'none') +
+  labs(title = 'Player Performance Scores by Team',
+       subtitle = 'Ordered by each team\'s highest performance score player',
+       y = 'Performance Score',
+       x = 'Team')+
+  coord_flip()
 ```
 
