@@ -71,32 +71,38 @@ This table shows the top-paid player (by contract value) for each team in the En
 
 At 37 years old, Bournemouth's Jermaine Defoe is among the oldest players in the Premier League, but his hefty contract shows that the club still views him as a valuable asset.
 
-```{r top_paid, fig.width = 11, fig.height = 3}
+```{r top_paid}
 top_paid <- prem %>% 
   filter(!is.na(team)) %>%
   group_by(team) %>% 
   arrange(desc(contract_value)) %>%
   slice(1) %>%
-  ungroup() %>%
-  arrange(desc(contract_value)) 
+  ungroup()
+
+top_paid$team <- reorder(top_paid$team, top_paid$contract_value)
+top_paid$position <- factor(top_paid$position, levels = c('GK', 'D', 'M', 'F'))
  
-ggplot(top_paid, aes(x = contract_value, y = 1, fill = team)) +
-  geom_col(position = position_dodge2(padding = 0.5)) +
-  theme_classic() +
-  scale_x_log10() +
-  annotate('text',
-           x = top_paid$contract_value, y = 1,
-           label = top_paid$team,
-           angle = -90, vjust = 1, hjust = 0,
-           size = 3.5) +
-  expand_limits(y = 1.5) +
-  theme(axis.title.y = element_blank(),
-        axis.text.y = element_blank(),
-        axis.line.y = element_blank(),
-        axis.ticks.y = element_blank(),
+ggplot(top_paid, aes(x = team, y = contract_value, color = position)) +
+  geom_point(size = 2.5) +
+  # theme_minimal() +
+  scale_color_discrete(name = '') +
+  scale_y_log10(
+    breaks = c(10*10^6, 20*10^6, 40*10^6, 80*10^6, 160*10^6),
+    labels = c('$10M', '$20M', '$40M', '$80M', '$160M')) +
+  # annotate('text',
+  #          x = top_paid$contract_value, y = 1,
+  #          label = top_paid$team,
+  #          angle = -90, vjust = 1, hjust = 0,
+  #          size = 3.5) +
+  # expand_limits(y = 1.5) +
+  theme(panel.grid.minor.x = element_blank(),
         legend.direction = 'horizontal',
-        legend.position = 'none') +
-  labs(title = 'Contract Value of Each Team\'s Highest Paid Player')
+        legend.position = c(0.75,0.05),
+        legend.background = element_blank(),
+        legend.key = element_blank()) +
+  coord_flip() +
+  labs(title = 'Contract Value of Each Team\'s Highest Paid Player',
+       x = '', y = 'Contract Value')
 ```
 
 
