@@ -5,6 +5,8 @@ date: "2/20/2020"
 output: html_document
 ---
 
+[LINK TO GITHUB](https://www.github.com/micahwilliams23/epl_overpaid)
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(readr)
@@ -61,8 +63,9 @@ matches.out <- fastLink(
 
 prem <- getMatches(
   dfA = combined, dfB = pay_2020,
-  fl.out = matches.out, threshold.match = 0.65) %>%
-  mutate('total_price' = contract_value + transfer_fee)
+  fl.out = matches.out, threshold.match = 0.65) 
+
+prem %<>% select(-c(posterior, gamma.1))
 
 rm(single_names, stats_2020, stats_2019, matches.out)
 ```
@@ -105,47 +108,20 @@ ggplot(top_paid, aes(x = team, y = contract_value, color = position)) +
        x = '', y = 'Contract Value')
 ```
 
-
-```{r, include = F}
-prem %>% 
-  summarize(mean_age = round(mean(age, na.rm = TRUE)),
-            avg_games = round(mean(games, na.rm = TRUE)),
-            avg_contract = mean(contract_value, na.rm = TRUE)/1000000,
-            avg_price = mean(total_price, na.rm = TRUE)/1000000) %>%
-  gt() %>%
-  cols_align('center') %>%
-  tab_header(title = 'Averages') %>%
-  fmt_currency(columns = vars(avg_contract, avg_price),
-               currency = 'USD') %>%
-  cols_label(mean_age = 'Age (years)',
-             avg_games = 'Games Played',
-             avg_contract = 'Contract (Million $)',
-             avg_price = 'Contract + Transfer Fee (Million $)')
-```
-
-
 ```{r}
-missing_contract <- pay_2020 %>%
-  anti_join(prem, by = 'player')
+prem_cut <- prem %>%
+  mutate(contract_value_millions = contract_value / (1*10^6),
+         pay_interval = cut(contract_value_millions, breaks = 5))
 
-missing_stats <- combined %>%
-  anti_join(prem, by = 'player')
+  
+prem_cut %>%
+  ggplot(aes(pay_interval, fill = team)) + 
+  geom_bar(position = 'fill') +
+  scale_fill_viridis_d(option = 'magma') +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.direction = 'horizontal',
+        legend.position = 'bottom')
 ```
-
-
-```{r find_missing}
-findmissing <- function(test_string){
-  missing_contract %>% filter(str_detect(player, test_string)) %>% pull(player)
-  missing_stats %>% filter(str_detect(player, test_string)) %>% pull(player)
-  return(list(
-    missing_contract,
-    missing_stats
-  ))
-}
-```
-
-
-
 
 ```{r contract_by_position}
 prem$position <- prem$position %>%
@@ -180,39 +156,7 @@ plot_forwards <-
 plot_all; plot_forwards
 ```
 
-
-```{r, include = F}
-prem <- prem %>%
-  filter(position %in% c('M','F'),
-         goals != 0,
-         season == 2020) %>%
-  mutate('cost_per_goal' = contract_value/goals)
-
-prem$player <- reorder(prem$player, prem$cost_per_goal)
-
-# prem %>%
-#   select(player, cost_per_goal) %>%
-#   # head() %>%
-#   gt()
-
-ggplot(prem %>% filter(cost_per_goal > 0), aes(player, cost_per_goal, fill = goals)) +
-  scale_fill_viridis_c(option = 'A', direction = 1) +
-  geom_col() +
-  theme_classic() +
-  theme(axis.text.x = element_blank(),
-        axis.line.x = element_blank(),
-        axis.ticks.x = element_blank()) +
-  labs(title = 'Cost per Goal Scored',
-       x = '', y = 'Cost per Goal Scored')
-
-
-```
-
 ```{r}
-f_m <- prem %>% filter(position %in% c('M','F'),
-                       !is.na(contract_value),
-                       contract_value != 0)
-
 get_performance <- function(goals, assists, shots, shots_on_goal, yellow, red, na.rm = TRUE){
     goals * 10 +
     assists * 5 +
@@ -222,13 +166,16 @@ get_performance <- function(goals, assists, shots, shots_on_goal, yellow, red, n
     red * -1
 }
 
+f_m <- prem %>% 
+  filter(position %in% c('M','F'),
+         !is.na(contract_value),
+         contract_value != 0) %>% 
+  mutate('performance' = get_performance(goals, assists, shots, shots_on_goal, yellow, red),
+         performance_cost = performance / (contract_value * 10^-6))
 
-f_m %<>% mutate('performance' = get_performance(goals, assists, shots, shots_on_goal, yellow, red),
-                'performance_cost' = performance / (contract_value / 10000000)) %>%
+f_m %>%
   arrange(performance_cost) %>%
   slice(1:5, 111:116)
-
-f_m %>% gt()
 ```
 
 
