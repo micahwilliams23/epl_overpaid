@@ -1,0 +1,739 @@
+"","player","games","starts","goals","assists","shots_on_goal","shots","yellow","red","season","team","position","age","contract_value","contract_length","transfer_fee"
+"740","Jermain Defoe",4,0,0,0,0,0,0,0,2019,"AFC Bournemouth","F",37,20820600,3,NA
+"737","Asmir Begovic",24,24,0,0,0,0,0,0,2019,"AFC Bournemouth","GK",32,18782400,4,12616200
+"228","Jefferson Lerma",22,20,0,1,1,16,9,0,2020,"AFC Bournemouth","M",25,16770000,5,32411250
+"609","Jefferson Lerma",30,29,2,0,8,31,12,0,2019,"AFC Bournemouth","M",25,16770000,5,32411250
+"21","Callum Wilson",25,23,7,0,14,29,7,0,2020,"AFC Bournemouth","F",27,16099200,4,3870000
+"465","Callum Wilson",30,29,14,9,29,69,3,0,2019,"AFC Bournemouth","F",27,16099200,4,3870000
+"58","Joshua King",17,15,3,2,8,14,0,0,2020,"AFC Bournemouth","F",28,15093000,5,NA
+"472","Joshua King",35,34,12,3,24,69,3,0,2019,"AFC Bournemouth","F",28,15093000,5,NA
+"83","Nathan Ake",21,21,2,1,6,13,1,0,2020,"AFC Bournemouth","D",25,13416000,5,25000200
+"527","Nathan Ake",38,38,4,0,7,22,3,0,2019,"AFC Bournemouth","D",25,13416000,5,25000200
+"135","Steve Cook",19,19,1,0,1,7,3,1,2020,"AFC Bournemouth","D",28,12074400,4,193500
+"622","Steve Cook",31,31,1,0,9,21,3,0,2019,"AFC Bournemouth","D",28,12074400,4,193500
+"323","Andrew Surman",4,1,0,0,0,0,1,0,2020,"AFC Bournemouth","M",33,11739000,5,691440
+"745","Andrew Surman",18,16,0,0,1,9,2,0,2019,"AFC Bournemouth","M",33,11739000,5,691440
+"736","Harry Arter",25,24,0,1,4,22,10,0,2019,"AFC Bournemouth","M",30,10732800,4,NA
+"342","Jordon Ibe",2,0,0,0,0,0,0,0,2020,"AFC Bournemouth","F",24,10196160,4,19350000
+"624","Jordon Ibe",19,9,1,1,3,9,1,0,2019,"AFC Bournemouth","F",24,10196160,4,19350000
+"267","Lewis Cook",18,9,0,0,0,4,3,0,2020,"AFC Bournemouth","M",23,9391200,4,7675500
+"739","Lewis Cook",13,8,0,0,0,4,2,0,2019,"AFC Bournemouth","M",23,9391200,4,7675500
+"123","Dan Gosling",13,9,2,1,2,6,1,0,2020,"AFC Bournemouth","M",30,9391200,4,NA
+"583","Dan Gosling",25,19,2,1,8,21,8,0,2019,"AFC Bournemouth","M",30,9391200,4,NA
+"227","Adam Smith",15,15,0,1,1,3,4,0,2020,"AFC Bournemouth","D",28,9391200,4,NA
+"626","Adam Smith",25,25,1,1,1,9,5,1,2019,"AFC Bournemouth","D",28,9391200,4,NA
+"137","Ryan Fraser",25,19,1,3,14,24,2,0,2020,"AFC Bournemouth","F",25,7244640,4,516000
+"490","Ryan Fraser",38,35,7,14,27,50,2,0,2019,"AFC Bournemouth","F",25,7244640,4,516000
+"322","Charlie Daniels",2,2,0,0,0,0,0,0,2020,"AFC Bournemouth","D",33,7043400,3,246390
+"623","Charlie Daniels",21,17,1,0,3,12,4,0,2019,"AFC Bournemouth","D",33,7043400,3,246390
+"427","Junior Stanislas",3,1,0,0,1,1,0,0,2020,"AFC Bournemouth","F",30,7043400,3,NA
+"584","Junior Stanislas",23,11,2,3,9,32,1,0,2019,"AFC Bournemouth","F",30,7043400,3,NA
+"499","David Brooks",30,29,7,5,23,42,3,0,2019,"AFC Bournemouth","M",22,5366400,4,13061250
+"229","Diego Rico",21,21,0,2,4,7,6,0,2020,"AFC Bournemouth","D",27,5165160,4,13867500
+"895","Diego Rico",12,5,0,0,0,9,1,0,2019,"AFC Bournemouth","D",27,5165160,4,13867500
+"274","Dominic Solanke",22,12,0,1,5,15,1,0,2020,"AFC Bournemouth","F",22,5031000,3,31179300
+"793","Dominic Solanke",10,2,0,1,3,10,0,0,2019,"AFC Bournemouth","F",22,5031000,3,31179300
+"136","Philip Billing",24,22,1,1,3,20,7,0,2020,"AFC Bournemouth","M",23,5031000,5,24264900
+"577","Philip Billing",27,25,2,0,9,40,7,0,2019,"AFC Bournemouth","M",23,5031000,5,24264900
+"386","Simon Francis",14,9,0,0,0,2,2,0,2020,"AFC Bournemouth","D",35,4024800,2,NA
+"741","Simon Francis",17,13,0,2,1,3,1,0,2019,"AFC Bournemouth","D",35,4024800,2,NA
+"134","Chris Mepham",11,10,1,0,2,5,1,0,2020,"AFC Bournemouth","D",22,3915150,5,19995000
+"922","Chris Mepham",13,10,0,1,0,2,1,0,2019,"AFC Bournemouth","D",22,3915150,5,19995000
+"738","Artur Boruc",12,12,0,0,0,0,2,0,2019,"AFC Bournemouth","GK",40,2683200,1,12900000
+"226","Aaron Ramsdale",25,25,0,0,0,0,0,0,2020,"AFC Bournemouth","GK",21,1006200,5,1030710
+"528","Aaron Ramsey",28,14,4,6,14,35,0,0,2019,"AFC Bournemouth","GK",21,1006200,5,1030710
+"419","Jack Simpson",3,1,0,0,0,0,0,0,2020,"AFC Bournemouth","D",23,603720,3,NA
+"744","Jack Simpson",6,4,0,0,1,2,0,0,2019,"AFC Bournemouth","D",23,603720,3,NA
+"434","Sam Surridge",1,0,0,0,0,0,0,0,2020,"AFC Bournemouth","F",22,0,5,NA
+"932","Sam Surridge",2,0,0,0,1,1,0,0,2019,"AFC Bournemouth","F",22,0,5,NA
+"366","Jack Stacey",9,9,0,1,1,4,2,0,2020,"AFC Bournemouth","D",23,0,NA,6540300
+"433","Mark Travers",1,1,0,0,0,0,0,0,2020,"AFC Bournemouth","GK",20,0,NA,NA
+"937","Mark Travers",2,2,0,0,0,0,0,0,2019,"AFC Bournemouth","GK",20,0,NA,NA
+"384","Arnaut Danjuma",9,4,0,0,4,7,0,0,2020,"AFC Bournemouth","F",23,0,5,26470800
+"195","Mesut Ozil",16,16,1,1,3,7,1,0,2020,"Arsenal","M",31,72111000,4,54825000
+"512","Mesut Ozil",24,20,5,2,7,11,2,0,2019,"Arsenal","M",31,72111000,4,54825000
+"32","Alexandre Lacazette",19,15,6,4,15,34,5,0,2020,"Arsenal","F",28,61060040.85,5,58114500
+"467","Alexandre Lacazette",35,27,13,8,32,83,2,0,2019,"Arsenal","F",28,61060040.85,5,58114500
+"50","Nicolas Pepe",22,15,4,4,14,38,3,0,2020,"Arsenal","F",24,46956000,5,117648000
+"4","Pierre-Emerick Aubameyang",24,24,15,1,29,59,3,1,2020,"Arsenal","F",30,42260400,4,74020200
+"457","Pierre-Emerick Aubameyang",36,30,22,4,39,94,0,0,2019,"Arsenal","F",30,42260400,4,74020200
+"297","Henrikh Mkhitaryan",3,1,0,0,0,2,1,0,2020,"Arsenal","M",31,40248000,4,46053000
+"500","Henrikh Mkhitaryan",25,19,6,4,15,50,1,0,2019,"Arsenal","M",31,40248000,4,46053000
+"204","Hector Bellerin",6,6,1,0,1,3,2,0,2020,"Arsenal","D",24,36894000,5,NA
+"746","Hector Bellerin",19,18,0,5,4,18,3,0,2019,"Arsenal","D",24,36894000,5,NA
+"299","Granit Xhaka",20,20,0,1,2,10,7,0,2020,"Arsenal","M",27,33540000,5,46440000
+"529","Granit Xhaka",29,29,4,2,13,30,10,0,2019,"Arsenal","M",27,33540000,5,46440000
+"292","Bernd Leno",26,26,0,0,0,0,2,0,2020,"Arsenal","GK",27,33540000,5,24768000
+"862","Bernd Leno",32,31,0,0,0,0,0,0,2019,"Arsenal","GK",27,33540000,5,24768000
+"413","Shkodran Mustafi",7,5,0,0,2,4,0,0,2020,"Arsenal","D",27,30186000,5,46182000
+"586","Shkodran Mustafi",31,31,2,0,10,18,9,0,2019,"Arsenal","D",27,30186000,5,46182000
+"317","Sead Kolasinac",16,12,0,2,0,3,3,0,2020,"Arsenal","D",26,26832000,4,NA
+"750","Sead Kolasinac",24,22,0,5,2,9,5,0,2019,"Arsenal","D",26,26832000,4,NA
+"176","Lucas Torreira",23,15,1,1,6,14,4,0,2020,"Arsenal","M",24,25155000,5,33540000
+"605","Lucas Torreira",34,24,2,2,6,26,7,1,2019,"Arsenal","M",24,25155000,5,33540000
+"108","David Luiz",23,23,2,0,6,16,4,1,2020,"Arsenal","D",32,16860300,2,12796800
+"555","David Luiz",36,36,3,2,8,33,3,0,2019,"Arsenal","D",32,16860300,2,12796800
+"748","Mohamed Elneny",8,5,0,0,0,7,0,0,2019,"Arsenal","M",27,13416000,4,13712700
+"168","Calum Chambers",14,13,1,1,2,10,5,0,2020,"Arsenal","D",25,13416000,4,22833000
+"585","Calum Chambers",31,29,2,0,12,32,9,0,2019,"Arsenal","D",25,13416000,4,22833000
+"301","Matteo Guendouzi",21,17,0,1,5,11,6,0,2020,"Arsenal","M",20,13416000,5,9030000
+"885","Matteo Guendouzi",33,23,0,0,4,17,9,0,2019,"Arsenal","M",20,13416000,5,9030000
+"293","Ainsley Maitland-Niles",14,14,0,2,0,4,3,0,2020,"Arsenal","M",NA,11739000,5,NA
+"627","Ainsley Maitland-Niles",16,11,1,1,3,5,1,0,2019,"Arsenal","M",NA,11739000,5,NA
+"751","Konstantinos Mavropanos",4,3,0,0,0,2,1,0,2019,"Arsenal","D",22,9223500,6,2438100
+"406","Rob Holding",2,1,0,0,0,0,0,0,2020,"Arsenal","D",24,8385000,5,3354000
+"749","Rob Holding",10,9,0,0,0,2,1,0,2019,"Arsenal","D",24,8385000,5,3354000
+"304","Dani Ceballos",12,8,0,2,3,7,0,0,2020,"Arsenal","M",23,3483000,1,NA
+"68","Gabriel Martinelli",14,6,3,0,7,14,1,0,2020,"Arsenal","F",18,0,5,9855600
+"400","Kieran Tierney",5,4,0,0,0,2,1,0,2020,"Arsenal","D",22,0,5,39706200
+"357","Henri Lansbury",9,2,0,0,1,2,0,0,2020,"Aston Villa","M",29,10732800,4,5005200
+"63","John McGinn",18,18,3,3,10,30,2,0,2020,"Aston Villa","M",25,8385000,5,NA
+"48","Anwar El Ghazi",23,20,4,4,15,37,3,0,2020,"Aston Villa","F",24,8307600,4,13235400
+"96","Tyrone Mings",21,21,2,1,2,4,5,0,2020,"Aston Villa","D",26,5031000,3,32791800
+"743","Tyrone Mings",5,2,0,0,0,0,0,0,2019,"Aston Villa","D",26,5031000,3,32791800
+"408","Orjan Nyland",3,1,0,0,0,0,0,0,2020,"Aston Villa","GK",29,4024800,3,4411800
+"281","Ahmed Elmohamady",11,7,0,1,0,1,0,0,2020,"Aston Villa","M",32,3354000,2,1206150
+"280","Tom Heaton",20,20,0,0,0,0,0,0,2020,"Aston Villa","GK",33,2817360,1,12938700
+"712","Tom Heaton",19,19,0,0,0,1,3,0,2019,"Aston Villa","GK",33,2817360,1,12938700
+"197","Matt Targett",18,18,1,2,6,9,3,0,2020,"Aston Villa","D",24,2347800,1,22794300
+"687","Matt Targett",16,13,1,3,3,11,2,0,2019,"Aston Villa","D",24,2347800,1,22794300
+"24","Jack Grealish",24,24,7,6,22,54,6,0,2020,"Aston Villa","M",24,2347800,5,NA
+"407","Jed Steer",1,1,0,0,0,0,0,0,2020,"Aston Villa","GK",27,2146560,4,612750
+"282","Neil Taylor",10,8,0,0,1,2,2,0,2020,"Aston Villa","D",31,2146560,4,NA
+"328","Keinan Davis",7,0,0,0,3,5,0,0,2020,"Aston Villa","F",22,1006200,3,NA
+"423","Kortney Hause",10,10,0,0,0,5,2,0,2020,"Aston Villa","D",24,536640,1,5005200
+"391","Ezri Konsa",14,13,0,2,1,4,0,0,2020,"Aston Villa","D",22,536640,1,19556400
+"949","Douglas Luiz",24,16,3,2,11,31,4,0,2020,"Aston Villa","M",21,0,4,24703500
+"162","Bjorn Engels",16,14,1,0,1,3,1,0,2020,"Aston Villa","D",25,0,NA,NA
+"367","Marvelous Nakamba",19,16,0,0,2,11,4,0,2020,"Aston Villa","M",26,0,5,17647200
+"62","Conor Hourihane",16,10,3,1,6,8,3,0,2020,"Aston Villa","M",29,0,NA,NA
+"334","Frederic Guilbert",21,19,0,2,2,5,6,0,2020,"Aston Villa","D",25,0,4,7353000
+"205","Mbwana Samatta",2,2,1,0,2,4,0,0,2020,"Aston Villa","F",27,0,5,14899500
+"453","Borja Baston",1,0,0,0,0,0,0,0,2020,"Aston Villa","F",27,0,1,NA
+"124","Alireza Jahanbakhsh",6,3,2,0,2,8,0,0,2020,"Brighton & Hove Albion","F",26,16770000,5,22059000
+"894","Alireza Jahanbakhsh",19,12,0,0,7,22,2,0,2019,"Brighton & Hove Albion","F",26,16770000,5,22059000
+"90","Lewis Dunk",24,24,2,3,7,15,8,0,2020,"Brighton & Hove Albion","D",28,15093000,5,NA
+"580","Lewis Dunk",36,36,2,1,4,21,5,0,2019,"Brighton & Hove Albion","D",28,15093000,5,NA
+"266","Jurgen Locadia",2,1,0,0,1,2,0,0,2020,"Brighton & Hove Albion","F",26,13583700,5,19737000
+"582","Jurgen Locadia",26,12,2,0,10,27,1,0,2019,"Brighton & Hove Albion","F",26,13583700,5,19737000
+"153","Shane Duffy",14,10,1,0,2,5,1,0,2020,"Brighton & Hove Albion","D",28,13416000,5,5753400
+"511","Shane Duffy",35,35,5,1,16,37,4,1,2019,"Brighton & Hove Albion","D",28,13416000,5,5753400
+"91","Pascal Gross",23,18,2,4,8,22,2,0,2020,"Brighton & Hove Albion","M",28,13416000,4,3289500
+"550","Pascal Gross",25,24,3,3,9,22,1,0,2019,"Brighton & Hove Albion","M",28,13416000,4,3289500
+"156","Florin Andone",3,1,1,0,1,1,0,1,2020,"Brighton & Hove Albion","F",26,13416000,5,6772500
+"573","Florin Andone",23,8,3,0,8,19,5,0,2019,"Brighton & Hove Albion","F",26,13416000,5,6772500
+"263","Martin Montoya",21,19,0,1,2,7,3,0,2020,"Brighton & Hove Albion","D",28,13416000,4,8062500
+"903","Martin Montoya",25,24,0,1,2,7,4,0,2019,"Brighton & Hove Albion","D",28,13416000,4,8062500
+"154","Davy Propper",23,23,1,2,4,18,3,0,2020,"Brighton & Hove Albion","M",28,12074400,4,15093000
+"620","Davy Propper",30,30,1,1,2,12,2,0,2019,"Brighton & Hove Albion","M",28,12074400,4,15093000
+"734","Jose Izquierdo",15,9,0,0,3,14,1,0,2019,"Brighton & Hove Albion","F",27,12074400,4,17737500
+"581","Anthony Knockaert",30,18,2,6,11,29,4,1,2019,"Brighton & Hove Albion","M",28,11739000,5,3844200
+"261","Mathew Ryan",26,26,0,0,0,0,0,0,2020,"Brighton & Hove Albion","GK",27,11739000,5,6579000
+"735","Mathew Ryan",34,34,0,0,0,0,2,0,2019,"Brighton & Hove Albion","GK",27,11739000,5,6579000
+"377","Yves Bissouma",10,5,0,0,3,7,1,0,2020,"Brighton & Hove Albion","M",23,8385000,5,19620900
+"884","Yves Bissouma",28,17,0,0,3,30,5,0,2019,"Brighton & Hove Albion","M",23,8385000,5,19620900
+"264","Dale Stephens",23,22,0,1,2,16,6,0,2020,"Brighton & Hove Albion","M",30,8049600,4,NA
+"621","Dale Stephens",30,29,1,1,1,13,6,1,2019,"Brighton & Hove Albion","M",30,8049600,4,NA
+"265","Solly March",11,7,0,1,5,11,2,0,2020,"Brighton & Hove Albion","M",25,8049600,4,5160
+"619","Solly March",35,30,1,5,10,43,1,0,2019,"Brighton & Hove Albion","M",25,8049600,4,5160
+"883","David Button",4,4,0,0,0,0,0,0,2019,"Brighton & Hove Albion","GK",30,3225000,3,NA
+"678","Leon Balogun",8,5,1,0,1,2,2,0,2019,"Brighton & Hove Albion","D",31,2451000,2,NA
+"618","Beram Kayal",18,9,1,1,2,5,4,0,2019,"Brighton & Hove Albion","M",31,1677000,1,NA
+"364","Gaetan Bong",4,0,0,0,0,0,0,0,2020,"Brighton & Hove Albion","D",31,1354500,1,NA
+"733","Gaetan Bong",22,19,0,0,0,2,0,0,2019,"Brighton & Hove Albion","D",31,1354500,1,NA
+"112","Aaron Mooy",19,17,2,1,6,26,0,0,2020,"Brighton & Hove Albion","M",29,0,4,8514000
+"549","Aaron Mooy",29,25,3,1,13,42,4,0,2019,"Brighton & Hove Albion","M",29,0,4,8514000
+"376","Steven Alzate",18,12,0,0,2,10,1,0,2020,"Brighton & Hove Albion","F",21,0,2,NA
+"262","Dan Burn",22,22,0,0,0,7,3,0,2020,"Brighton & Hove Albion","D",27,0,4,NA
+"73","Leandro Trossard",20,14,3,3,9,24,0,0,2020,"Brighton & Hove Albion","F",25,0,4,29412000
+"23","Neal Maupay",25,20,7,2,23,64,3,0,2020,"Brighton & Hove Albion","F",23,0,NA,29412000
+"76","Adam Webster",20,20,3,0,8,11,3,0,2020,"Brighton & Hove Albion","D",25,0,4,32133900
+"428","Tariq Lamptey",1,0,0,0,0,0,0,0,2020,"Brighton & Hove Albion","D",19,0,4,4682700
+"141","James Tarkowski",26,26,1,1,4,12,6,0,2020,"Burnley","D",27,13416000,4,4386000
+"546","James Tarkowski",35,35,3,1,9,18,8,0,2019,"Burnley","D",27,13416000,4,4386000
+"237","Ben Mee",26,26,0,1,4,9,5,0,2020,"Burnley","D",30,11068200,3,NA
+"913","Ben Mee",38,38,0,2,4,22,9,0,2019,"Burnley","D",30,11068200,3,NA
+"707","Ben Gibson",1,1,1,0,1,1,1,0,2019,"Burnley","D",27,10732800,4,19608000
+"235","Nick Pope",26,26,0,0,0,1,0,0,2020,"Burnley","GK",27,9391200,4,1457700
+"196","Robbie Brady",13,5,1,2,2,5,1,0,2020,"Burnley","M",28,9391200,4,16563600
+"710","Robbie Brady",16,6,0,1,2,13,3,1,2019,"Burnley","M",28,9391200,4,16563600
+"194","Matej Vydra",7,0,1,1,3,5,0,0,2020,"Burnley","F",27,9391200,4,14190000
+"699","Matej Vydra",13,3,1,1,2,5,1,0,2019,"Burnley","F",27,9391200,4,14190000
+"85","Ashley Westwood",23,23,2,5,2,8,8,0,2020,"Burnley","M",29,8317920,4,6359700
+"576","Ashley Westwood",34,31,2,7,7,24,5,0,2019,"Burnley","M",29,8317920,4,6359700
+"239","Jack Cork",24,24,0,0,2,7,0,0,2020,"Burnley","M",30,7647120,3,12900000
+"612","Jack Cork",37,37,1,2,2,18,6,0,2019,"Burnley","M",30,7647120,3,12900000
+"273","Aaron Lennon",14,4,0,0,0,0,3,0,2020,"Burnley","F",32,7043400,3,NA
+"613","Aaron Lennon",16,14,1,1,2,4,1,0,2019,"Burnley","F",32,7043400,3,NA
+"389","Charlie Taylor",14,12,0,0,0,2,2,0,2020,"Burnley","D",26,6708000,4,NA
+"716","Charlie Taylor",38,35,0,1,0,6,2,0,2019,"Burnley","D",26,6708000,4,NA
+"711","Steven Defour",6,6,0,0,0,0,0,0,2019,"Burnley","M",31,6037200,2,9429900
+"142","Johann Gudmundsson",7,4,1,0,2,5,0,0,2020,"Burnley","M",29,6037200,3,3289500
+"543","Johann Gudmundsson",29,19,3,6,9,32,2,0,2019,"Burnley","M",29,6037200,3,3289500
+"833","Joe Hart",19,19,0,0,0,0,0,0,2019,"Burnley","GK",32,6037200,2,4515000
+"236","Matthew Lowton",15,15,0,1,0,1,2,0,2020,"Burnley","D",30,5031000,3,NA
+"714","Matthew Lowton",21,19,0,0,0,3,7,0,2019,"Burnley","D",30,5031000,3,NA
+"426","Kevin Long",1,0,0,0,0,0,0,0,2020,"Burnley","D",29,3085680,2,384420
+"713","Kevin Long",6,5,0,1,0,1,0,0,2019,"Burnley","D",29,3085680,2,384420
+"117","Jeff Hendrick",21,19,2,2,7,15,6,0,2020,"Burnley","M",28,2347800,1,12938700
+"544","Jeff Hendrick",32,25,3,0,5,19,4,0,2019,"Burnley","M",28,2347800,1,12938700
+"405","Phil Bardsley",11,11,0,0,1,3,2,0,2020,"Burnley","D",34,1677000,1,2580000
+"709","Phil Bardsley",19,19,0,0,1,12,9,0,2019,"Burnley","D",34,1677000,1,2580000
+"29","Ashley Barnes",19,17,6,0,13,32,4,0,2020,"Burnley","F",30,0,4,NA
+"471","Ashley Barnes",37,26,12,2,30,64,8,0,2019,"Burnley","F",30,0,4,NA
+"47","Jay Rodriguez",25,9,4,0,11,24,1,0,2020,"Burnley","F",30,0,2,816570
+"238","Erik Pieters",15,14,0,2,1,4,1,0,2020,"Burnley","D",31,0,2,NA
+"14","Chris Wood",24,24,10,1,15,35,1,0,2020,"Burnley","F",28,0,4,19040400
+"480","Chris Wood",38,29,10,2,26,61,2,0,2019,"Burnley","F",28,0,4,19040400
+"311","Kepa Arrizabalaga",24,24,0,0,0,0,0,0,2020,"Chelsea","GK",25,70434000,7,92751000
+"909","Kepa Arrizabalaga",36,36,0,0,0,0,2,0,2019,"Chelsea","GK",25,70434000,7,92751000
+"38","Christian Pulisic",16,12,5,2,15,33,0,0,2020,"Chelsea","F",21,53496300,6,94118400
+"70","N'Golo Kante",18,16,3,0,6,16,3,0,2020,"Chelsea","M",28,50310000,5,46182000
+"530","N'Golo Kante",36,36,4,4,6,30,3,0,2019,"Chelsea","M",28,50310000,5,46182000
+"314","Ross Barkley",10,6,0,0,6,18,0,0,2020,"Chelsea","M",26,36894000,6,19620900
+"554","Ross Barkley",27,13,3,5,7,40,1,0,2019,"Chelsea","M",26,36894000,6,19620900
+"175","Mateo Kovacic",23,16,1,3,3,17,7,0,2020,"Chelsea","M",25,35778150,5,66177000
+"910","Mateo Kovacic",32,21,0,2,4,28,3,0,2019,"Chelsea","M",25,35778150,5,66177000
+"185","Marcos Alonso",8,6,1,2,3,6,3,0,2020,"Chelsea","D",29,33540000,5,29670000
+"588","Marcos Alonso",31,31,2,4,7,43,6,0,2019,"Chelsea","D",29,33540000,5,29670000
+"415","Danny Drinkwater",5,5,0,0,0,1,0,0,2020,"Chelsea","M",29,33540000,5,44001900
+"119","Antonio Rudiger",11,11,2,0,3,6,3,0,2020,"Chelsea","D",26,33540000,5,38377500
+"633","Antonio Rudiger",33,33,1,0,7,25,7,0,2019,"Chelsea","D",26,33540000,5,38377500
+"191","Michy Batshuayi",15,1,1,1,2,15,0,0,2020,"Chelsea","F",26,30186000,5,40635000
+"520","Michy Batshuayi",11,9,5,0,10,24,0,0,2019,"Chelsea","F",26,30186000,5,40635000
+"764","Victor Moses",2,0,0,0,0,0,0,0,2019,"Chelsea","D",29,25155000,5,14835000
+"37","Mason Mount",26,22,5,4,21,59,3,0,2020,"Chelsea","M",21,25155000,5,NA
+"107","Cesar Azpilicueta",24,24,2,3,6,17,0,0,2020,"Chelsea","D",30,24148800,4,11352000
+"632","Cesar Azpilicueta",38,38,1,5,7,17,4,0,2019,"Chelsea","D",30,24148800,4,11352000
+"313","Andreas Christensen",13,13,0,0,1,3,3,0,2020,"Chelsea","D",23,21465600,4,NA
+"761","Andreas Christensen",8,6,0,0,0,0,1,0,2019,"Chelsea","D",23,21465600,4,NA
+"765","Davide Zappacosta",4,1,0,0,1,2,0,0,2019,"Chelsea","D",27,18782400,4,33217500
+"7","Tammy Abraham",24,23,13,3,31,67,2,0,2020,"Chelsea","F",22,16770000,5,NA
+"312","Kurt Zouma",21,18,0,0,3,9,4,0,2020,"Chelsea","D",25,16099200,6,15996000
+"610","Kurt Zouma",32,29,2,1,4,19,3,0,2019,"Chelsea","D",25,16099200,6,15996000
+"506","Ruben Loftus-Cheek",24,6,6,1,8,27,0,0,2019,"Chelsea","F",24,11739000,5,NA
+"315","Olivier Giroud",6,2,0,0,1,2,0,0,2020,"Chelsea","F",33,7378800,1,23220000
+"589","Olivier Giroud",27,7,2,4,11,31,1,0,2019,"Chelsea","F",33,7378800,1,23220000
+"446","Willy Caballero",2,2,0,0,0,0,0,0,2020,"Chelsea","GK",38,2012400,1,NA
+"759","Willy Caballero",2,2,0,0,0,0,0,0,2019,"Chelsea","GK",38,2012400,1,NA
+"198","Callum Hudson Odoi",17,7,1,4,5,25,1,0,2020,"Chelsea","F",19,0,5,NA
+"763","Callum Hudson Odoi",10,4,0,1,4,6,0,0,2019,"Chelsea","F",19,0,5,NA
+"355","Billy Gilmour",2,0,0,0,0,0,0,0,2020,"Chelsea","M",18,0,4,NA
+"396","Reece James",14,9,0,2,2,10,1,0,2020,"Chelsea","D",20,0,6,NA
+"189","Fikayo Tomori",14,14,1,0,4,5,3,0,2020,"Chelsea","D",22,0,5,NA
+"61","Wilfried Zaha",26,25,3,3,16,41,3,0,2020,"Crystal Palace","F",27,43602000,5,4205400
+"485","Wilfried Zaha",34,34,10,5,28,74,8,0,2019,"Crystal Palace","F",27,43602000,5,4205400
+"354","Mamadou Sakho",8,6,0,0,0,0,0,1,2020,"Crystal Palace","D",30,26832000,4,32740200
+"847","Mamadou Sakho",27,27,0,0,0,5,2,0,2019,"Crystal Palace","D",30,26832000,4,32740200
+"249","Max Meyer",13,6,0,0,2,7,1,0,2020,"Crystal Palace","M",24,25155000,3,NA
+"700","Max Meyer",29,15,1,2,7,38,3,0,2019,"Crystal Palace","M",24,25155000,3,NA
+"246","Scott Dann",6,4,0,1,0,2,0,0,2020,"Crystal Palace","D",33,20124000,5,2012400
+"842","Scott Dann",10,7,0,1,2,5,1,0,2019,"Crystal Palace","D",33,20124000,5,2012400
+"160","Connor Wickham",6,0,1,1,1,3,0,0,2020,"Crystal Palace","F",26,20124000,5,10965000
+"853","Connor Wickham",6,0,0,0,1,5,0,0,2019,"Crystal Palace","F",26,20124000,5,10965000
+"114","Jeffrey Schlupp",14,9,2,1,5,7,2,0,2020,"Crystal Palace","D",27,18782400,5,15131700
+"538","Jeffrey Schlupp",30,18,4,1,10,29,1,0,2019,"Crystal Palace","D",27,18782400,5,15131700
+"86","Patrick van Aanholt",19,19,2,0,3,13,0,0,2020,"Crystal Palace","D",29,18447000,5,12938700
+"566","Patrick van Aanholt",36,36,3,2,12,44,3,0,2019,"Crystal Palace","D",29,18447000,5,12938700
+"148","Andros Townsend",15,9,1,1,4,7,0,0,2020,"Crystal Palace","M",28,18447000,5,17105400
+"507","Andros Townsend",38,34,6,4,19,62,1,0,2019,"Crystal Palace","M",28,18447000,5,17105400
+"420","Jairo Riedewald",8,6,0,0,0,2,0,0,2020,"Crystal Palace","M",23,18447000,5,9868500
+"186","Cheikhou Kouyate",24,20,1,1,4,9,1,0,2020,"Crystal Palace","M",30,17440800,4,12255000
+"834","Cheikhou Kouyate",31,21,0,2,8,20,3,0,2019,"Crystal Palace","M",30,17440800,4,12255000
+"200","James Tomkins",18,18,1,1,2,5,5,0,2020,"Crystal Palace","D",30,16770000,5,12835500
+"673","James Tomkins",29,29,1,1,5,18,6,0,2019,"Crystal Palace","D",30,16770000,5,12835500
+"149","Christian Benteke",17,6,1,0,14,20,2,0,2020,"Crystal Palace","F",29,16099200,2,39370800
+"672","Christian Benteke",16,9,1,1,9,24,1,0,2019,"Crystal Palace","F",29,16099200,2,39370800
+"87","Luka Milivojevic",22,22,2,1,6,24,9,0,2020,"Crystal Palace","M",28,14757600,4,16563600
+"477","Luka Milivojevic",38,38,12,2,23,55,10,0,2019,"Crystal Palace","M",28,14757600,4,16563600
+"244","Vicente Guaita",24,24,0,0,0,1,1,0,2020,"Crystal Palace","GK",33,12074400,3,NA
+"865","Vicente Guaita",20,20,0,0,0,0,2,0,2019,"Crystal Palace","GK",33,12074400,3,NA
+"248","James McArthur",25,25,0,2,6,21,4,0,2020,"Crystal Palace","M",32,11068200,3,9649200
+"565","James McArthur",38,36,3,5,8,32,7,0,2019,"Crystal Palace","M",32,11068200,3,9649200
+"331","James McCarthy",21,9,0,0,4,9,5,0,2020,"Crystal Palace","M",29,10062000,3,4850400
+"771","James McCarthy",1,0,0,0,0,0,0,0,2019,"Crystal Palace","M",29,10062000,3,4850400
+"397","Wayne Hennessey",2,2,0,0,0,0,0,0,2020,"Crystal Palace","GK",33,8049600,3,3999000
+"844","Wayne Hennessey",18,17,0,0,0,0,0,0,2019,"Crystal Palace","GK",33,8049600,3,3999000
+"245","Joel Ward",17,15,0,0,1,1,3,0,2020,"Crystal Palace","D",30,7043400,3,713370
+"674","Joel Ward",7,6,1,0,1,2,1,0,2019,"Crystal Palace","D",30,7043400,3,713370
+"30","Jordan Ayew",25,25,6,1,15,35,4,0,2020,"Crystal Palace","F",28,6540300,3,4115100
+"701","Jordan Ayew",20,14,1,1,3,25,3,0,2019,"Crystal Palace","F",28,6540300,3,4115100
+"849","Alexander Sorloth",12,0,0,0,2,4,0,0,2019,"Crystal Palace","F",24,6037200,5,9055800
+"247","Martin Kelly",19,17,0,1,0,2,0,0,2020,"Crystal Palace","D",29,3354000,2,2193000
+"845","Martin Kelly",13,12,0,0,1,3,2,0,2019,"Crystal Palace","D",29,3354000,2,2193000
+"335","Gary Cahill",17,17,0,1,1,3,1,0,2020,"Crystal Palace","D",34,0,2,NA
+"760","Gary Cahill",2,0,0,0,0,0,0,0,2019,"Crystal Palace","D",34,0,2,NA
+"363","Victor Camarasa",1,0,0,0,0,0,0,0,2020,"Crystal Palace","M",25,0,1,NA
+"522","Victor Camarasa",32,31,5,3,12,42,6,0,2019,"Crystal Palace","M",25,0,1,NA
+"250","Jordan Pickford",26,26,0,0,0,0,1,0,2020,"Everton","GK",25,40312500,6,32250000
+"773","Jordan Pickford",38,38,0,0,0,0,1,0,2019,"Everton","GK",25,40312500,6,32250000
+"88","Yerry Mina",24,22,2,0,13,24,3,0,2020,"Everton","D",25,40248000,5,36765000
+"706","Yerry Mina",13,10,1,0,1,4,3,0,2019,"Everton","D",25,40248000,5,36765000
+"253","Andre Gomes",8,7,0,0,0,1,3,0,2020,"Everton","M",26,37635750,5,36765000
+"705","Andre Gomes",27,24,1,1,6,21,7,0,2019,"Everton","M",26,37635750,5,36765000
+"254","Morgan Schneiderlin",14,11,0,0,0,4,3,0,2020,"Everton","M",30,33540000,5,25116300
+"774","Morgan Schneiderlin",14,10,0,1,0,2,2,0,2019,"Everton","M",30,33540000,5,25116300
+"151","Gylfi Sigurdsson",23,20,1,2,15,32,2,0,2020,"Everton","M",30,33540000,5,57353400
+"468","Gylfi Sigurdsson",38,36,13,6,32,84,3,0,2019,"Everton","M",30,33540000,5,57353400
+"252","Lucas Digne",25,25,0,5,1,15,2,0,2020,"Everton","D",26,30186000,5,23220000
+"542","Lucas Digne",35,33,4,4,10,34,5,1,2019,"Everton","D",26,30186000,5,23220000
+"178","Theo Walcott",19,13,1,2,8,20,1,0,2020,"Everton","F",30,23478000,4,26122500
+"514","Theo Walcott",37,24,5,2,21,43,1,0,2019,"Everton","F",30,23478000,4,26122500
+"150","Michael Keane",20,17,1,0,3,6,0,0,2020,"Everton","D",27,20124000,5,31256700
+"635","Michael Keane",33,33,1,1,9,32,2,0,2019,"Everton","D",27,20124000,5,31256700
+"120","Cenk Tosun",8,4,2,0,5,16,0,0,2020,"Everton","F",28,20124000,5,2554200
+"556","Cenk Tosun",25,10,3,3,17,37,3,0,2019,"Everton","F",28,20124000,5,2554200
+"251","Seamus Coleman",17,13,0,1,1,3,3,0,2020,"Everton","D",31,18782400,4,NA
+"590","Seamus Coleman",29,29,2,2,7,14,1,0,2019,"Everton","D",31,18782400,4,NA
+"424","Oumar Niasse",3,0,0,0,0,0,0,0,2020,"Everton","F",29,18447000,5,19633800
+"772","Oumar Niasse",18,12,0,0,7,19,0,0,2019,"Everton","F",29,18447000,5,19633800
+"158","Moise Kean",19,5,1,2,9,18,0,0,2020,"Everton","F",19,17834250,5,40441500
+"183","Alex Iwobi",17,12,1,0,9,15,0,0,2020,"Everton","F",23,16770000,5,44711400
+"551","Alex Iwobi",35,22,3,6,14,34,0,0,2019,"Everton","F",23,16770000,5,44711400
+"358","Fabian Delph",15,12,0,0,1,4,3,0,2020,"Everton","M",30,16099200,3,13970700
+"794","Fabian Delph",11,8,0,1,3,4,1,1,2019,"Everton","M",30,16099200,3,13970700
+"326","Mason Holgate",19,16,0,3,3,8,3,0,2020,"Everton","D",23,8385000,5,1535100
+"769","Mason Holgate",5,4,0,0,0,0,1,0,2019,"Everton","D",23,8385000,5,1535100
+"11","Dominic Calvert-Lewin",24,19,11,1,23,48,6,0,2020,"Everton","F",22,8049600,6,1973700
+"501","Dominic Calvert-Lewin",35,19,6,2,18,49,3,0,2019,"Everton","F",22,8049600,6,1973700
+"159","Tom Davies",19,13,1,0,5,8,6,0,2020,"Everton","M",21,6708000,4,NA
+"767","Tom Davies",16,10,0,0,2,7,3,0,2019,"Everton","M",21,6708000,4,NA
+"726","Jonas Lossl",31,30,0,1,0,0,1,0,2019,"Everton","GK",31,5634720,3,NA
+"770","Jonjoe Kenny",10,8,0,1,0,3,1,0,2019,"Everton","D",22,5031000,5,NA
+"418","Leighton Baines",3,1,0,0,0,1,0,0,2020,"Everton","D",35,4360200,1,NA
+"766","Leighton Baines",6,5,0,0,1,2,0,0,2019,"Everton","D",35,4360200,1,NA
+"390","Djibril Sidibe",18,15,0,4,2,6,2,0,2020,"Everton","D",27,0,1,NA
+"268","Jean-Philippe Gbamin",2,1,0,0,0,0,0,0,2020,"Everton","M",24,0,5,36765000
+"288","Kasper Schmeichel",26,26,0,0,0,0,1,0,2020,"Leicester City","GK",33,43602000,5,NA
+"783","Kasper Schmeichel",38,38,0,0,0,1,3,0,2019,"Leicester City","GK",33,43602000,5,NA
+"1","Jamie Vardy",24,24,17,4,31,51,2,0,2020,"Leicester City","F",33,37564800,4,1354500
+"461","Jamie Vardy",34,30,18,4,39,77,3,1,2019,"Leicester City","F",33,37564800,4,1354500
+"64","Ricardo Pereira",25,25,3,2,4,13,1,0,2020,"Leicester City","D",26,23478000,5,28380000
+"604","Ricardo Pereira",35,35,2,6,11,27,7,0,2019,"Leicester City","D",26,23478000,5,28380000
+"99","Ben Chilwell",21,21,2,4,5,10,2,0,2020,"Leicester City","D",23,21801000,5,NA
+"776","Ben Chilwell",36,36,0,4,11,22,4,0,2019,"Leicester City","D",23,21801000,5,NA
+"784","Adrien Silva",2,1,0,0,0,0,0,0,2019,"Leicester City","M",30,21465600,4,25542000
+"77","Kelechi Iheanacho",9,4,3,3,6,10,1,0,2020,"Leicester City","F",23,20124000,5,30379500
+"637","Kelechi Iheanacho",30,9,1,2,6,17,2,0,2019,"Leicester City","F",23,20124000,5,30379500
+"31","James Maddison",25,24,6,3,17,52,4,0,2020,"Leicester City","M",NA,18447000,5,28380000
+"498","James Maddison",36,35,7,7,28,84,3,0,2019,"Leicester City","M",NA,18447000,5,28380000
+"165","Jonny Evans",26,26,1,0,4,14,4,0,2020,"Leicester City","D",32,16099200,3,4515000
+"683","Jonny Evans",24,21,1,0,3,9,2,0,2019,"Leicester City","D",32,16099200,3,4515000
+"164","Caglar Soyuncu",25,25,1,1,7,14,4,0,2020,"Leicester City","D",23,15093000,5,24381000
+"911","Caglar Soyuncu",6,4,0,0,0,2,1,0,2019,"Leicester City","D",23,15093000,5,24381000
+"190","Demarai Gray",14,2,1,1,6,8,1,0,2020,"Leicester City","M",23,14757600,4,5598600
+"531","Demarai Gray",34,23,4,1,18,47,2,0,2019,"Leicester City","M",23,14757600,4,5598600
+"781","Vicente Iborra",8,3,0,0,1,2,0,0,2019,"Leicester City","M",32,14757600,4,16447500
+"340","Nampalys Mendy",4,3,0,0,1,1,0,0,2020,"Leicester City","M",27,13416000,4,17002200
+"872","Nampalys Mendy",31,23,0,0,0,2,5,0,2019,"Leicester City","M",27,13416000,4,17002200
+"25","Ayoze Perez",23,20,7,5,14,32,0,0,2020,"Leicester City","F",26,12074400,4,49123200
+"475","Ayoze Perez",37,34,12,2,26,54,2,0,2019,"Leicester City","F",26,12074400,4,49123200
+"697","Rachid Ghezzal",19,8,1,0,5,19,3,0,2019,"Leicester City","M",27,12074400,4,16125000
+"305","Marc Albrighton",12,2,0,1,2,4,1,0,2020,"Leicester City","M",30,9055800,3,NA
+"591","Marc Albrighton",27,18,2,2,7,19,3,0,2019,"Leicester City","M",30,9055800,3,NA
+"65","Youri Tielemans",25,23,3,5,8,35,1,0,2020,"Leicester City","M",22,8864880,4,66177000
+"575","Youri Tielemans",13,13,3,4,13,32,2,0,2019,"Leicester City","M",22,8864880,4,66177000
+"691","Danny Ward",14,4,1,0,6,11,0,0,2019,"Leicester City","GK",26,5366400,4,16254000
+"778","Fousseni Diabate",1,1,0,0,0,0,0,0,2019,"Leicester City","M",24,5031000,5,2322000
+"775","Daniel Amartey",9,7,0,0,1,4,2,0,2019,"Leicester City","M",25,4226040,3,7236900
+"338","Wes Morgan",8,1,0,0,2,2,0,0,2020,"Leicester City","D",36,4024800,1,NA
+"558","Wes Morgan",22,21,3,0,5,12,1,0,2019,"Leicester City","D",36,4024800,1,NA
+"333","Christian Fuchs",7,6,0,0,1,4,0,0,2020,"Leicester City","D",33,3354000,1,NA
+"779","Christian Fuchs",3,2,0,0,0,2,0,0,2019,"Leicester City","D",33,3354000,1,NA
+"49","Harvey Barnes",24,18,4,6,18,41,0,0,2020,"Leicester City","M",22,3354000,5,NA
+"636","Harvey Barnes",16,11,1,2,11,40,0,0,2019,"Leicester City","M",22,3354000,5,NA
+"167","Hamza Choudhury",15,8,1,1,4,7,2,0,2020,"Leicester City","M",23,2012400,4,NA
+"777","Hamza Choudhury",9,7,0,0,2,4,0,0,2019,"Leicester City","M",23,2012400,4,NA
+"182","Dennis Praet",18,8,1,2,3,8,0,0,2020,"Leicester City","M",25,0,5,30882600
+"5","Mohamed Salah",23,23,14,6,39,88,1,0,2020,"Liverpool","F",27,67080000,5,46053000
+"459","Mohamed Salah",38,37,22,7,66,139,1,0,2019,"Liverpool","F",27,67080000,5,46053000
+"41","Virgil van Dijk",26,26,4,0,8,11,1,0,2020,"Liverpool","D",28,66409200,6,91486800
+"532","Virgil van Dijk",38,38,4,2,8,30,1,0,2019,"Liverpool","D",28,66409200,6,91486800
+"18","Roberto Firmino",26,24,8,7,32,72,0,0,2020,"Liverpool","F",28,60372000,5,44956500
+"473","Roberto Firmino",34,31,12,7,36,74,0,0,2019,"Liverpool","F",28,60372000,5,44956500
+"54","Jordan Henderson",25,22,3,5,5,16,1,0,2020,"Liverpool","M",29,46956000,5,19737000
+"639","Jordan Henderson",32,21,1,2,1,17,1,0,2019,"Liverpool","M",29,46956000,5,19737000
+"72","Alex Oxlade-Chamberlain",18,11,3,0,8,28,1,0,2020,"Liverpool","M",26,40248000,5,44118000
+"791","Alex Oxlade-Chamberlain",2,0,0,0,1,1,0,0,2019,"Liverpool","M",26,40248000,5,44118000
+"201","Naby Keita",8,3,1,1,4,7,1,0,2020,"Liverpool","M",25,40248000,5,69660000
+"603","Naby Keita",25,16,2,1,10,27,0,0,2019,"Liverpool","M",25,40248000,5,69660000
+"8","Sadio Mane",23,21,12,6,27,52,2,0,2020,"Liverpool","F",27,33540000,5,45175800
+"458","Sadio Mane",36,35,22,1,43,87,2,0,2019,"Liverpool","F",27,33540000,5,45175800
+"80","James Milner",17,6,2,2,3,10,3,0,2020,"Liverpool","M",34,28173600,3,NA
+"515","James Milner",31,19,5,4,7,24,5,0,2019,"Liverpool","M",34,28173600,3,NA
+"387","Dejan Lovren",8,8,0,1,1,4,1,0,2020,"Liverpool","D",30,26832000,4,27747900
+"640","Dejan Lovren",13,11,1,0,1,6,1,0,2019,"Liverpool","D",30,26832000,4,27747900
+"177","Joel Matip",7,7,1,0,1,3,0,0,2020,"Liverpool","D",28,26832000,4,NA
+"641","Joel Matip",22,17,1,0,2,8,3,0,2019,"Liverpool","D",28,26832000,4,NA
+"192","Xherdan Shaqiri",6,2,1,0,1,3,0,0,2020,"Liverpool","M",28,26832000,5,17066700
+"509","Xherdan Shaqiri",24,11,6,3,10,25,2,0,2019,"Liverpool","M",28,26832000,5,17066700
+"79","Georginio Wijnaldum",25,25,2,0,11,24,0,0,2020,"Liverpool","M",29,25155000,5,30160200
+"559","Georginio Wijnaldum",35,32,3,0,9,30,3,0,2019,"Liverpool","M",29,25155000,5,30160200
+"787","Nathaniel Clyne",18,14,0,1,1,5,0,0,2019,"Liverpool","D",28,23478000,5,19414500
+"187","Adam Lallana",13,3,1,1,1,3,1,0,2020,"Liverpool","M",31,19620900,5,33991500
+"789","Adam Lallana",13,5,0,0,3,5,1,0,2019,"Liverpool","M",31,19620900,5,33991500
+"78","Trent Alexander-Arnold",26,25,2,10,7,26,4,0,2020,"Liverpool","D",21,13416000,5,NA
+"638","Trent Alexander-Arnold",29,27,1,12,10,29,3,0,2019,"Liverpool","D",21,13416000,5,NA
+"207","Joe Gomez",17,12,0,0,0,0,3,0,2020,"Liverpool","D",22,9391200,5,5379300
+"788","Joe Gomez",16,12,0,0,1,4,2,0,2019,"Liverpool","D",22,9391200,5,5379300
+"55","Divock Origi",20,5,3,1,6,11,0,0,2020,"Liverpool","F",24,3018600,1,13854600
+"572","Divock Origi",12,4,3,1,7,14,0,0,2019,"Liverpool","F",24,3018600,1,13854600
+"22","Harry Wilson",22,18,7,0,12,30,1,0,2020,"Liverpool","M",22,0,5,NA
+"444","Takumi Minamino",2,0,0,0,0,2,0,0,2020,"Liverpool","F",25,0,5,12061500
+"19","Kevin De Bruyne",25,24,8,17,20,73,2,0,2020,"Manchester City","M",28,129129000,6,81141000
+"593","Kevin De Bruyne",19,11,2,2,13,32,2,0,2019,"Manchester City","M",28,129129000,6,81141000
+"10","Raheem Sterling",23,22,11,1,20,60,5,0,2020,"Manchester City","M",25,80496000,4,68537700
+"462","Raheem Sterling",34,31,17,9,39,78,3,0,2019,"Manchester City","M",25,80496000,4,68537700
+"39","Bernardo Silva",22,15,5,5,14,33,5,0,2020,"Manchester City","M",25,60372000,6,56502000
+"494","Bernardo Silva",36,31,7,7,23,61,3,0,2019,"Manchester City","M",25,60372000,6,56502000
+"223","Aymeric Laporte",6,6,0,0,0,1,1,0,2020,"Manchester City","D",25,48297600,6,75465000
+"560","Aymeric Laporte",35,34,3,3,7,26,3,0,2019,"Manchester City","D",25,48297600,6,75465000
+"20","Riyad Mahrez",21,14,7,7,22,46,0,0,2020,"Manchester City","M",29,40248000,5,77529000
+"491","Riyad Mahrez",27,14,7,4,26,53,0,0,2019,"Manchester City","M",29,40248000,5,77529000
+"222","John Stones",12,10,0,0,0,5,0,0,2020,"Manchester City","D",25,40248000,6,60965400
+"797","John Stones",24,20,0,0,1,5,1,0,2019,"Manchester City","D",25,40248000,6,60965400
+"113","Nicolas Otamendi",17,14,2,0,5,10,3,0,2020,"Manchester City","D",32,40248000,5,48903900
+"796","Nicolas Otamendi",18,14,0,0,2,14,1,0,2019,"Manchester City","D",32,40248000,5,48903900
+"82","Ilkay Gundogan",23,15,2,1,4,22,7,0,2020,"Manchester City","M",29,37564800,4,29605500
+"502","Ilkay Gundogan",31,23,6,3,11,43,3,0,2019,"Manchester City","M",29,37564800,4,29605500
+"132","Kyle Walker",20,20,1,2,3,14,4,0,2020,"Manchester City","D",29,36894000,5,55921500
+"644","Kyle Walker",33,30,1,1,4,21,3,0,2019,"Manchester City","D",29,36894000,5,55921500
+"371","Benjamin Mendy",12,12,0,1,1,5,2,0,2020,"Manchester City","D",25,36223200,6,67080000
+"795","Benjamin Mendy",10,10,0,4,3,7,1,0,2019,"Manchester City","D",25,36223200,6,67080000
+"57","David Silva",19,16,3,8,7,31,0,0,2020,"Manchester City","M",34,32198400,3,31527600
+"503","David Silva",33,28,6,8,19,52,2,0,2019,"Manchester City","M",34,32198400,3,31527600
+"343","Joao Cancelo",10,7,0,0,4,10,1,0,2020,"Manchester City","D",25,32198400,6,95589000
+"2","Sergio Aguero",20,15,16,2,24,59,1,0,2020,"Manchester City","F",31,30874860,2,39474000
+"460","Sergio Aguero",33,31,21,8,43,121,4,0,2019,"Manchester City","F",31,30874860,2,39474000
+"481","Leroy Sane",31,21,10,10,24,56,1,0,2019,"Manchester City","M",24,30186000,5,54825000
+"15","Gabriel Jesus",22,13,9,4,28,60,1,0,2020,"Manchester City","F",22,30186000,5,35088000
+"493","Gabriel Jesus",29,8,7,3,24,43,1,0,2019,"Manchester City","F",22,30186000,5,35088000
+"409","Claudio Bravo",4,3,0,0,0,0,0,0,2020,"Manchester City","GK",36,21465600,4,19737000
+"224","Olexandr Zinchenko",11,9,0,0,2,11,0,0,2020,"Manchester City","M",23,6708000,5,2193000
+"798","Olexandr Zinchenko",14,14,0,3,1,7,1,0,2019,"Manchester City","M",23,6708000,5,2193000
+"225","Philip Foden",13,2,0,1,4,7,0,0,2020,"Manchester City","M",NA,4024800,5,NA
+"642","Philip Foden",13,3,1,0,6,14,0,0,2019,"Manchester City","M",NA,4024800,5,NA
+"375","Patrick Roberts",3,0,0,0,0,0,0,0,2020,"Manchester City","M",23,0,3,16447500
+"306","David De Gea",26,26,0,0,0,0,2,0,2020,"Manchester United","GK",29,150930000,6,27412500
+"801","David De Gea",38,38,0,0,0,0,1,0,2019,"Manchester United","GK",29,150930000,6,27412500
+"649","Alexis Sanchez",20,9,1,3,9,19,3,0,2019,"Manchester United","F",31,105651000,5,NA
+"16","Anthony Martial",20,19,9,3,22,42,1,0,2020,"Manchester United","F",24,100620000,6,65790000
+"482","Anthony Martial",27,18,10,2,22,39,2,0,2019,"Manchester United","F",24,100620000,6,65790000
+"309","Paul Pogba",7,5,0,2,4,9,0,0,2020,"Manchester United","M",26,97266000,5,115132500
+"469","Paul Pogba",35,34,13,9,47,101,6,0,2019,"Manchester United","M",26,97266000,5,115132500
+"173","Harry Maguire",26,26,1,0,9,21,2,0,2020,"Manchester United","D",26,76432500,7,127942200
+"557","Harry Maguire",31,31,3,0,12,29,6,1,2019,"Manchester United","D",26,76432500,7,127942200
+"6","Marcus Rashford",22,22,14,4,30,68,2,0,2020,"Manchester United","F",22,53664000,4,NA
+"483","Marcus Rashford",33,26,10,5,39,84,3,1,2019,"Manchester United","F",22,53664000,4,NA
+"308","Luke Shaw",15,11,0,0,3,5,4,0,2020,"Manchester United","D",24,40248000,5,41125200
+"647","Luke Shaw",29,29,1,4,8,23,11,0,2019,"Manchester United","D",24,40248000,5,41125200
+"172","Victor Lindelof",23,23,1,0,1,3,4,0,2020,"Manchester United","D",25,40248000,5,38377500
+"645","Victor Lindelof",30,29,1,1,1,7,1,0,2019,"Manchester United","D",25,40248000,5,38377500
+"307","Aaron Wan-Bissaka",23,23,0,2,0,4,5,0,2020,"Manchester United","D",22,30186000,5,80883000
+"852","Aaron Wan-Bissaka",35,35,0,3,1,8,4,1,2019,"Manchester United","D",22,30186000,5,80883000
+"348","Nemanja Matic",9,8,0,0,1,2,1,0,2020,"Manchester United","M",31,24148800,3,49020000
+"646","Nemanja Matic",28,28,1,0,2,12,6,0,2019,"Manchester United","M",31,24148800,3,49020000
+"316","Juan Mata",16,8,0,2,1,10,1,0,2020,"Manchester United","M",31,21465600,2,49045800
+"561","Juan Mata",22,16,3,2,6,19,3,0,2019,"Manchester United","M",31,21465600,2,49045800
+"411","Phil Jones",2,2,0,0,1,1,0,0,2020,"Manchester United","D",28,20124000,4,21168900
+"803","Phil Jones",18,15,0,0,2,5,1,0,2019,"Manchester United","D",28,20124000,4,21168900
+"310","Jesse Lingard",20,9,0,0,4,18,3,0,2020,"Manchester United","M",27,20124000,4,NA
+"533","Jesse Lingard",27,19,4,2,15,32,3,0,2019,"Manchester United","M",27,20124000,4,NA
+"454","Eric Bailly",1,1,0,0,0,0,0,0,2020,"Manchester United","D",25,16099200,3,41667000
+"799","Eric Bailly",12,8,0,0,1,3,0,1,2019,"Manchester United","D",25,16099200,3,41667000
+"393","Marcos Rojo",3,1,0,0,0,1,1,0,2020,"Manchester United","D",29,16099200,3,21930000
+"804","Marcos Rojo",5,2,0,0,3,6,2,0,2019,"Manchester United","D",29,16099200,3,21930000
+"648","Chris Smalling",24,24,1,0,4,12,1,0,2019,"Manchester United","D",30,14086800,3,8772000
+"800","Matteo Darmian",6,5,0,0,1,1,0,0,2019,"Manchester United","D",30,12074400,4,19737000
+"392","Diogo Dalot",4,1,0,0,0,1,0,0,2020,"Manchester United","D",20,8385000,5,22575000
+"866","Diogo Dalot",16,12,0,2,0,15,3,0,2019,"Manchester United","D",20,8385000,5,22575000
+"174","Andreas Pereira",23,18,1,3,16,39,3,0,2020,"Manchester United","M",24,8049600,4,NA
+"680","Andreas Pereira",15,6,1,1,3,9,5,0,2019,"Manchester United","M",24,8049600,4,NA
+"843","Timothy Fosu-Mensah",12,10,0,0,0,3,3,0,2019,"Manchester United","D",22,4024800,4,NA
+"365","Axel Tuanzebe",5,2,0,0,0,0,0,0,2020,"Manchester United","D",22,0,3,NA
+"71","Daniel James",25,23,3,6,15,32,3,0,2020,"Manchester United","F",22,0,5,25000200
+"451","Bruno Fernandes",2,2,0,1,3,7,1,0,2020,"Manchester United","M",25,0,7,78045000
+"455","Odion Ighalo",1,0,0,0,1,1,0,0,2020,"Manchester United","F",30,0,1,NA
+"36","Jonjo Shelvey",15,14,5,0,11,20,1,0,2020,"Newcastle United","M",27,28173600,6,17544000
+"652","Jonjo Shelvey",16,10,1,1,7,22,1,0,2019,"Newcastle United","M",27,28173600,6,17544000
+"291","Matt Ritchie",7,5,0,0,0,3,1,0,2020,"Newcastle United","M",30,15093000,5,13158000
+"597","Matt Ritchie",36,35,2,8,9,39,9,0,2019,"Newcastle United","M",30,15093000,5,13158000
+"324","Yoshinori Muto",7,2,0,0,0,1,0,0,2020,"Newcastle United","F",27,14489280,4,12422700
+"693","Yoshinori Muto",17,5,1,0,3,6,1,0,2019,"Newcastle United","F",27,14489280,4,12422700
+"100","Miguel Almiron",25,25,2,1,9,35,4,0,2020,"Newcastle United","M",26,14196450,5,35294400
+"927","Miguel Almiron",10,9,0,0,8,21,0,0,2019,"Newcastle United","M",26,14196450,5,35294400
+"163","Jamaal Lascelles",16,16,1,0,4,4,1,0,2020,"Newcastle United","D",26,13416000,5,5482500
+"809","Jamaal Lascelles",32,32,0,1,1,10,4,0,2019,"Newcastle United","D",26,13416000,5,5482500
+"395","Dwight Gayle",9,2,0,1,0,2,0,0,2020,"Newcastle United","F",30,13416000,5,13158000
+"125","Florian Lejeune",6,4,2,0,3,4,0,0,2020,"Newcastle United","D",28,12745200,5,10965000
+"810","Florian Lejeune",12,12,0,0,4,7,0,0,2019,"Newcastle United","D",28,12745200,5,10965000
+"121","Ciaran Clark",14,14,2,0,4,6,3,0,2020,"Newcastle United","D",30,11739000,5,6579000
+"562","Ciaran Clark",11,9,3,0,3,7,1,0,2019,"Newcastle United","D",30,11739000,5,6579000
+"199","DeAndre Yedlin",12,8,1,0,2,2,3,0,2020,"Newcastle United","D",26,10062000,5,6475800
+"653","DeAndre Yedlin",29,28,1,2,3,10,6,1,2019,"Newcastle United","D",26,10062000,5,6475800
+"287","Paul Dummett",16,14,0,0,0,1,2,0,2020,"Newcastle United","D",28,9391200,4,NA
+"808","Paul Dummett",26,21,0,0,1,9,1,0,2019,"Newcastle United","D",28,9391200,4,NA
+"812","Jacob Murphy",9,3,0,1,2,3,0,0,2019,"Newcastle United","M",24,8385000,5,15480000
+"345","Christian Atsu",18,6,0,3,1,5,2,0,2020,"Newcastle United","M",28,8049600,4,8230200
+"650","Christian Atsu",28,15,1,0,13,27,2,0,2019,"Newcastle United","M",28,8049600,4,8230200
+"98","Fabian Schar",17,14,2,0,5,15,4,0,2020,"Newcastle United","D",28,8049600,3,4644000
+"540","Fabian Schar",24,22,4,1,8,26,12,0,2019,"Newcastle United","D",28,8049600,3,4644000
+"166","Isaac Hayden",22,21,1,0,5,14,4,1,2020,"Newcastle United","M",24,7378800,5,3186300
+"651","Isaac Hayden",25,21,1,4,6,20,3,1,2019,"Newcastle United","M",24,7378800,5,3186300
+"289","Javi Manquillo",11,9,0,1,1,1,2,0,2020,"Newcastle United","D",25,7043400,3,5805000
+"811","Javi Manquillo",18,12,0,3,1,2,2,0,2019,"Newcastle United","D",25,7043400,3,5805000
+"116","Federico Fernandez",20,17,2,1,3,4,4,0,2020,"Newcastle United","D",31,5768880,2,7740000
+"912","Federico Fernandez",19,17,0,1,1,3,2,0,2019,"Newcastle United","D",31,5768880,2,7740000
+"320","Ki Sung-yueng",3,1,0,0,0,0,0,0,2020,"Newcastle United","M",31,5366400,2,NA
+"867","Ki Sung-yueng",18,14,0,1,2,7,2,0,2019,"Newcastle United","M",31,5366400,2,NA
+"378","Andy Carroll",13,4,0,3,2,7,1,0,2020,"Newcastle United","F",31,0,1,NA
+"830","Andy Carroll",12,3,0,0,6,14,2,0,2019,"Newcastle United","F",31,0,1,NA
+"286","Martin Dubravka",26,26,0,0,0,0,0,0,2020,"Newcastle United","GK",31,0,6,5160000
+"807","Martin Dubravka",38,38,0,0,0,0,1,0,2019,"Newcastle United","GK",31,0,6,5160000
+"171","Allan Saint-Maximin",15,13,1,2,6,18,0,0,2020,"Newcastle United","F",22,0,6,26470800
+"104","Jetro Willems",19,18,2,2,3,10,0,0,2020,"Newcastle United","D",25,0,1,NA
+"319","Emil Krafth",11,6,0,0,0,3,0,0,2020,"Newcastle United","D",25,0,4,7946400
+"211","Grant Hanley",12,11,0,0,1,4,3,0,2020,"Norwich City","D",28,8385000,5,NA
+"329","Sam Byram",17,15,0,0,2,9,4,0,2020,"Norwich City","D",26,8049600,4,1220340
+"351","Christoph Zimmermann",15,15,0,1,2,4,2,0,2020,"Norwich City","D",27,4024800,4,NA
+"215","Marco Stiepermann",17,11,0,0,5,13,4,0,2020,"Norwich City","M",29,3521700,3,NA
+"216","Moritz Leitner",9,7,0,0,1,6,1,0,2020,"Norwich City","M",NA,3219840,4,1741500
+"214","Tom Trybull",14,12,0,0,0,7,2,0,2020,"Norwich City","M",26,3018600,3,NA
+"180","Mario Vrancic",11,4,1,0,2,5,2,0,2020,"Norwich City","M",30,2683200,2,870750
+"127","Kenny McLean",25,22,1,1,8,17,4,0,2020,"Norwich City","M",28,2683200,4,261870
+"213","Emiliano Buendia",25,20,0,6,8,25,3,0,2020,"Norwich City","F",23,2683200,5,1741500
+"383","Michael McGovern",2,1,0,0,0,0,0,0,2020,"Norwich City","GK",35,2280720,2,NA
+"128","Onel Hernandez",17,7,1,1,6,13,0,0,2020,"Norwich City","F",27,2146560,4,NA
+"181","Alexander Tettey",20,18,1,1,3,15,4,0,2020,"Norwich City","M",33,1744080,2,NA
+"209","Max Aarons",24,24,0,0,3,11,5,0,2020,"Norwich City","D",20,1677000,5,NA
+"9","Teemu Pukki",25,25,11,3,32,59,3,0,2020,"Norwich City","F",29,1609920,3,NA
+"210","Ben Godfrey",18,18,0,0,1,4,1,1,2020,"Norwich City","D",22,1341600,4,NA
+"212","Jamal Lewis",16,13,0,0,1,5,2,0,2020,"Norwich City","D",22,1341600,4,NA
+"27","Todd Cantwell",26,22,6,2,15,33,4,0,2020,"Norwich City","M",21,301860,3,NA
+"208","Tim Krul",24,24,0,0,0,0,4,0,2020,"Norwich City","GK",31,0,3,NA
+"382","Ralf Fahrmann",1,1,0,0,0,0,0,0,2020,"Norwich City","GK",31,0,1,NA
+"129","Josip Drmic",11,0,1,0,1,3,0,0,2020,"Norwich City","F",27,0,3,NA
+"352","Ibrahim Amadou",11,8,0,0,0,2,1,0,2020,"Norwich City","M",26,0,1,NA
+"443","Lukas Rupp",4,3,0,0,0,2,0,0,2020,"Norwich City","M",29,0,3,709500
+"40","Lys Mousset",23,10,5,4,7,24,1,0,2020,"Sheffield United","F",24,5031000,3,16344300
+"625","Lys Mousset",24,1,1,0,7,12,1,0,2019,"Sheffield United","F",24,5031000,3,16344300
+"332","Phil Jagielka",4,1,0,0,0,0,0,0,2020,"Sheffield United","D",37,3354000,1,NA
+"634","Phil Jagielka",7,4,1,0,1,1,0,1,2019,"Sheffield United","D",37,3354000,1,NA
+"233","Jack O'Connell",26,26,0,1,2,10,3,0,2020,"Sheffield United","D",25,3354000,5,NA
+"138","Oliver Norwood",26,26,1,0,8,22,6,0,2020,"Sheffield United","M",28,3018600,3,2554200
+"92","Billy Sharp",16,4,2,0,4,8,1,1,2020,"Sheffield United","F",34,2414880,3,NA
+"381","Leon Clarke",1,0,0,0,0,1,0,0,2020,"Sheffield United","F",35,2414880,4,NA
+"34","John Fleck",23,23,5,2,10,25,7,0,2020,"Sheffield United","M",28,2146560,4,NA
+"232","John Egan",25,25,0,0,3,12,2,0,2020,"Sheffield United","D",27,2012400,4,5224500
+"272","Luke Freeman",9,3,0,0,1,4,2,0,2020,"Sheffield United","M",27,2012400,3,NA
+"140","Callum Robinson",16,9,1,1,2,9,1,0,2020,"Sheffield United","F",25,1341600,4,11468100
+"139","Enda Stevens",26,26,1,2,3,11,5,0,2020,"Sheffield United","D",29,1073280,4,NA
+"84","George Baldock",26,26,2,3,4,10,6,0,2020,"Sheffield United","D",27,804960,3,859140
+"42","John Lundstram",25,22,4,2,7,30,4,0,2020,"Sheffield United","M",26,804960,3,650160
+"356","Ben Osborn",5,0,0,0,0,0,0,0,2020,"Sheffield United","M",25,804960,3,NA
+"410","Simon Moore",1,1,0,0,0,0,0,0,2020,"Sheffield United","GK",29,670800,2,673380
+"230","Dean Henderson",25,25,0,0,0,1,2,0,2020,"Sheffield United","GK",22,670800,1,NA
+"46","Oliver McBurnie",24,13,4,0,13,24,3,0,2020,"Sheffield United","F",23,0,4,28083300
+"339","Ravel Morrison",1,0,0,0,0,0,0,0,2020,"Sheffield United","M",27,0,1,NA
+"447","Sander Berge",2,2,0,0,0,1,0,0,2020,"Sheffield United","M",22,0,5,30508500
+"815","Fraser Forster",1,1,0,0,0,0,0,0,2019,"Southampton","GK",31,23478000,5,12900000
+"242","Oriol Romeu",20,13,0,0,0,4,3,0,2020,"Southampton","M",28,21801000,5,7675500
+"659","Oriol Romeu",31,25,1,0,4,10,11,0,2019,"Southampton","M",28,21801000,5,7675500
+"271","Sofiane Boufal",17,6,0,1,8,20,2,0,2020,"Southampton","M",26,21801000,5,20511000
+"816","Wesley Hoedt",13,13,0,0,1,6,2,0,2019,"Southampton","D",25,20124000,5,19350000
+"870","Mohamed Elyounoussi",16,8,0,0,5,18,0,0,2019,"Southampton","M",25,20124000,5,20640000
+"347","Cedric Soares",16,16,0,1,1,6,1,0,2020,"Southampton","D",28,17440800,4,7133700
+"655","Cedric Soares",18,16,1,2,3,10,4,0,2019,"Southampton","D",28,17440800,4,7133700
+"43","James Ward Prowse",26,26,4,2,16,33,7,0,2020,"Southampton","M",25,17440800,6,NA
+"495","James Ward Prowse",26,21,7,0,15,31,4,0,2019,"Southampton","M",25,17440800,6,NA
+"188","Shane Long",16,10,1,2,8,20,0,0,2020,"Southampton","F",33,16563600,4,16344300
+"516","Shane Long",26,12,5,1,9,31,3,0,2019,"Southampton","F",33,16563600,4,16344300
+"59","Nathan Redmond",23,23,3,1,12,41,2,0,2020,"Southampton","M",25,16099200,4,14809200
+"504","Nathan Redmond",38,36,6,4,21,75,3,0,2019,"Southampton","M",25,16099200,4,14809200
+"146","Jack Stephens",18,17,1,3,2,4,1,0,2020,"Southampton","D",26,16099200,5,187050
+"660","Jack Stephens",24,19,1,0,5,7,4,0,2019,"Southampton","D",26,16099200,5,187050
+"144","Jannik Vestergaard",13,13,1,0,3,4,2,0,2020,"Southampton","D",27,16099200,4,28767000
+"882","Jannik Vestergaard",23,23,0,0,2,14,2,0,2019,"Southampton","D",27,16099200,4,28767000
+"3","Danny Ings",26,21,15,1,30,55,2,0,2020,"Southampton","F",27,15093000,3,32649900
+"492","Danny Ings",24,23,7,2,21,54,1,0,2019,"Southampton","F",27,15093000,3,32649900
+"240","Angus Gunn",10,10,0,0,0,0,0,0,2020,"Southampton","GK",24,13416000,5,12900000
+"881","Angus Gunn",12,12,0,0,0,0,0,0,2019,"Southampton","GK",24,13416000,5,12900000
+"402","Alex McCarthy",16,16,0,0,0,0,0,0,2020,"Southampton","GK",30,13416000,4,5160000
+"817","Alex McCarthy",25,25,0,0,0,0,1,0,2019,"Southampton","GK",30,13416000,4,5160000
+"110","Stuart Armstrong",19,10,2,0,7,19,2,0,2020,"Southampton","M",27,13416000,4,9030000
+"571","Stuart Armstrong",29,16,3,2,13,32,2,0,2019,"Southampton","M",27,13416000,4,9030000
+"657","Mario Lemina",21,18,1,1,5,24,5,0,2019,"Southampton","M",26,13080600,3,19801500
+"318","Maya Yoshida",8,6,0,0,3,5,1,0,2020,"Southampton","D",31,10062000,3,3070200
+"819","Maya Yoshida",17,17,0,1,3,13,0,0,2019,"Southampton","D",31,10062000,3,3070200
+"145","Jan Bednarek",24,24,1,0,1,4,3,0,2020,"Southampton","D",23,6708000,5,6579000
+"813","Jan Bednarek",25,24,0,1,2,6,7,0,2019,"Southampton","D",23,6708000,5,6579000
+"818","Josh Sims",7,2,0,1,1,5,0,0,2019,"Southampton","M",22,4829760,4,NA
+"241","Yann Valery",8,7,0,1,1,2,1,0,2020,"Southampton","D",21,536640,4,NA
+"599","Yann Valery",23,20,2,1,5,6,3,0,2019,"Southampton","D",21,536640,4,NA
+"111","Moussa Djenepo",16,8,2,1,6,12,4,0,2020,"Southampton","F",21,0,4,23091000
+"243","Che Adams",20,8,0,1,2,13,0,0,2020,"Southampton","F",23,0,5,24561600
+"336","Kevin Danso",6,3,0,1,0,1,0,0,2020,"Southampton","D",21,0,1,NA
+"12","Harry Kane",20,20,11,2,26,55,2,0,2020,"Tottenham Hotspur","F",26,80496000,6,NA
+"463","Harry Kane",28,27,17,4,50,103,5,0,2019,"Tottenham Hotspur","F",26,80496000,6,NA
+"93","Tanguy Ndombele",16,10,2,2,4,9,2,0,2020,"Tottenham Hotspur","M",23,67080000,5,88236000
+"17","Heung-Min Son",21,20,9,7,29,61,0,2,2020,"Tottenham Hotspur","F",27,56347200,6,32895000
+"476","Heung-Min Son",31,23,12,6,29,73,2,1,2019,"Tottenham Hotspur","F",27,56347200,6,32895000
+"275","Hugo Lloris",10,10,0,0,0,0,0,0,2020,"Tottenham Hotspur","GK",33,40248000,6,13815900
+"825","Hugo Lloris",33,33,0,0,0,0,0,0,2019,"Tottenham Hotspur","GK",33,40248000,6,13815900
+"26","Dele Alli",19,18,7,2,16,32,2,0,2020,"Tottenham Hotspur","M",23,40248000,6,7275600
+"517","Dele Alli",25,22,5,2,19,40,4,0,2019,"Tottenham Hotspur","M",23,40248000,6,7275600
+"943","Lucas Moura",24,16,4,2,9,37,2,0,2020,"Tottenham Hotspur","M",27,26832000,5,32972400
+"967","Lucas Moura",32,25,10,0,19,45,3,0,2019,"Tottenham Hotspur","M",27,26832000,5,32972400
+"277","Davinson Sanchez",19,18,0,0,2,2,4,0,2020,"Tottenham Hotspur","D",23,26161200,6,47317200
+"663","Davinson Sanchez",23,22,1,1,3,12,2,0,2019,"Tottenham Hotspur","D",23,26161200,6,47317200
+"361","Serge Aurier",21,21,0,4,4,10,1,0,2020,"Tottenham Hotspur","D",27,23478000,5,29025000
+"821","Serge Aurier",8,6,0,2,1,4,1,0,2019,"Tottenham Hotspur","D",27,23478000,5,29025000
+"370","Victor Wanyama",2,0,0,0,0,0,1,0,2020,"Tottenham Hotspur","M",28,21801000,5,15789600
+"666","Victor Wanyama",13,4,1,0,2,7,2,0,2019,"Tottenham Hotspur","M",28,21801000,5,15789600
+"95","Erik Lamela",15,9,2,1,7,22,2,0,2020,"Tottenham Hotspur","F",27,21465600,4,32895000
+"535","Erik Lamela",19,9,4,2,12,30,2,0,2019,"Tottenham Hotspur","F",27,21465600,4,32895000
+"278","Danny Rose",14,11,0,0,0,2,5,0,2020,"Tottenham Hotspur","D",29,20124000,5,1096500
+"826","Danny Rose",26,20,0,3,2,15,5,0,2019,"Tottenham Hotspur","D",29,20124000,5,1096500
+"385","Eric Dier",12,8,0,2,3,4,4,0,2020,"Tottenham Hotspur","M",26,20124000,5,5482500
+"563","Eric Dier",20,18,3,0,3,9,4,0,2019,"Tottenham Hotspur","M",26,20124000,5,5482500
+"346","Ben Davies",7,5,0,0,0,1,1,0,2020,"Tottenham Hotspur","D",26,20124000,5,13867500
+"822","Ben Davies",27,20,0,0,1,14,2,0,2019,"Tottenham Hotspur","D",26,20124000,5,13867500
+"193","Jan Vertonghen",17,16,1,1,2,3,2,0,2020,"Tottenham Hotspur","D",32,17910360,3,13712700
+"665","Jan Vertonghen",22,22,1,0,2,15,3,0,2019,"Tottenham Hotspur","D",32,17910360,3,13712700
+"279","Harry Winks",21,17,0,0,2,7,6,0,2020,"Tottenham Hotspur","M",24,16770000,5,NA
+"667","Harry Winks",26,17,1,0,2,9,4,0,2019,"Tottenham Hotspur","M",24,16770000,5,NA
+"403","Juan Foyth",4,1,0,0,0,0,1,0,2020,"Tottenham Hotspur","D",22,7211100,5,10449000
+"661","Juan Foyth",12,10,1,0,1,4,3,1,2019,"Tottenham Hotspur","D",22,7211100,5,10449000
+"369","Paulo Gazzaniga",17,16,0,0,0,0,1,0,2020,"Tottenham Hotspur","GK",28,6708000,5,NA
+"824","Paulo Gazzaniga",3,3,0,0,0,0,0,0,2019,"Tottenham Hotspur","GK",28,6708000,5,NA
+"330","Giovani Lo Celso",16,5,0,0,2,10,2,0,2020,"Tottenham Hotspur","M",23,4695600,1,NA
+"276","Kyle Walker-Peters",4,4,0,0,0,1,0,0,2020,"Tottenham Hotspur","D",22,4024800,3,NA
+"829","Kyle Walker-Peters",6,4,0,3,0,1,1,0,2019,"Tottenham Hotspur","D",22,4024800,3,NA
+"161","Toby Alderweireld",25,25,1,2,3,7,4,0,2020,"Tottenham Hotspur","D",30,0,4,17544000
+"820","Toby Alderweireld",34,33,0,0,6,17,3,0,2019,"Tottenham Hotspur","D",30,0,4,17544000
+"828","Michel Vorm",2,2,0,0,0,0,0,0,2019,"Tottenham Hotspur","GK",36,0,NA,6243600
+"94","Moussa Sissoko",20,19,2,2,2,10,6,0,2020,"Tottenham Hotspur","M",30,0,4,38377500
+"827","Moussa Sissoko",29,27,0,3,3,15,2,0,2019,"Tottenham Hotspur","M",30,0,4,38377500
+"404","Ryan Sessegnon",6,4,0,0,0,2,0,0,2020,"Tottenham Hotspur","M",19,0,6,39706200
+"587","Ryan Sessegnon",35,26,2,7,12,31,0,0,2019,"Tottenham Hotspur","M",19,0,6,39706200
+"432","Japhet Tanganga",3,3,0,0,1,1,1,0,2020,"Tottenham Hotspur","D",20,0,1,NA
+"206","Steven Bergwijn",2,2,1,0,3,4,0,0,2020,"Tottenham Hotspur","F",22,0,6,42570000
+"89","Andre Gray",19,7,2,0,5,22,1,0,2020,"Watford","F",28,23478000,5,23736000
+"497","Andre Gray",29,13,7,2,17,35,2,0,2019,"Watford","F",28,23478000,5,23736000
+"44","Abdoulaye Doucoure",25,25,4,0,9,31,7,0,2020,"Watford","M",27,23478000,5,10320000
+"519","Abdoulaye Doucoure",35,34,5,4,17,49,7,0,2019,"Watford","M",27,23478000,5,10320000
+"35","Troy Deeney",15,14,5,1,13,25,3,0,2020,"Watford","F",31,21801000,5,NA
+"488","Troy Deeney",32,28,9,5,29,64,4,1,2019,"Watford","F",31,21801000,5,NA
+"179","Tom Cleverley",9,8,1,0,3,13,0,0,2020,"Watford","M",30,16770000,5,10203900
+"676","Tom Cleverley",13,4,1,0,2,4,2,0,2019,"Watford","M",30,16770000,5,10203900
+"60","Roberto Pereyra",20,11,3,0,7,14,3,0,2020,"Watford","M",29,15093000,5,14747538
+"508","Roberto Pereyra",33,33,6,2,22,57,3,0,2019,"Watford","M",29,15093000,5,14747538
+"388","Sebastian Prodl",1,1,0,0,0,1,0,0,2020,"Watford","D",32,12074400,4,NA
+"860","Sebastian Prodl",1,0,0,0,0,0,0,0,2019,"Watford","D",32,12074400,4,NA
+"350","Daryl Janmaat",8,7,0,1,0,3,1,0,2020,"Watford","D",30,12074400,4,9765300
+"856","Daryl Janmaat",18,17,0,2,1,9,3,0,2019,"Watford","D",30,12074400,4,9765300
+"353","Nathaniel Chalobah",14,9,0,1,1,6,1,0,2020,"Watford","M",25,11739000,5,NA
+"855","Nathaniel Chalobah",9,3,0,0,1,2,2,0,2019,"Watford","M",25,11739000,5,NA
+"260","Etienne Capoue",21,21,0,2,1,12,6,0,2020,"Watford","M",31,10732800,4,8127000
+"675","Etienne Capoue",33,33,1,2,3,15,14,1,2019,"Watford","M",31,10732800,4,8127000
+"349","Christian Kabasele",16,15,0,1,0,3,1,1,2020,"Watford","D",28,10062000,5,7623900
+"857","Christian Kabasele",21,19,0,0,1,7,2,0,2019,"Watford","D",28,10062000,5,7623900
+"152","Will Hughes",18,15,1,1,3,16,4,0,2020,"Watford","M",24,10062000,5,9984600
+"602","Will Hughes",32,31,2,4,9,31,5,0,2019,"Watford","M",24,10062000,5,9984600
+"203","Adam Masina",14,10,1,0,1,5,3,0,2020,"Watford","D",26,9391200,5,5805000
+"877","Adam Masina",14,11,0,0,0,3,5,0,2019,"Watford","D",26,9391200,5,5805000
+"45","Gerard Deulofeu",26,23,4,5,20,51,3,0,2020,"Watford","F",25,8049600,2,14835000
+"486","Gerard Deulofeu",30,26,10,4,22,60,3,0,2019,"Watford","F",25,8049600,2,14835000
+"270","Isaac Success",5,0,0,0,1,1,1,0,2020,"Watford","F",24,8049600,4,17028000
+"679","Isaac Success",30,9,1,1,11,25,4,0,2019,"Watford","F",24,8049600,4,17028000
+"873","Marc Navarro",2,1,0,0,0,0,0,0,2019,"Watford","D",24,7714200,5,2322000
+"258","Craig Cathcart",24,24,0,0,0,3,5,0,2020,"Watford","D",31,6166200,4,NA
+"567","Craig Cathcart",36,35,3,0,5,11,2,0,2019,"Watford","D",31,6166200,4,NA
+"256","Kiko Femenia",17,15,0,0,1,4,4,0,2020,"Watford","D",29,5366400,4,NA
+"677","Kiko Femenia",29,22,1,1,2,6,1,0,2019,"Watford","D",29,5366400,4,NA
+"684","Ken Sema",17,9,1,2,5,11,1,0,2019,"Watford","M",26,5031000,5,2574840
+"259","Jose Holebas",12,11,0,0,2,4,5,0,2020,"Watford","D",35,4024800,2,2747700
+"568","Jose Holebas",28,27,3,6,6,18,12,1,2019,"Watford","D",35,4024800,2,2747700
+"255","Ben Foster",26,26,0,0,1,1,1,0,2020,"Watford","GK",36,4024800,2,NA
+"878","Ben Foster",38,38,0,0,1,3,1,0,2019,"Watford","GK",36,4024800,2,NA
+"341","Domingos Quina",4,0,0,0,1,1,0,0,2020,"Watford","M",20,2146560,4,1277100
+"670","Domingos Quina",8,3,1,0,1,5,0,0,2019,"Watford","M",20,2146560,4,1277100
+"874","Ben Wilmot",2,0,0,0,0,0,0,0,2019,"Watford","D",20,1677000,5,1973700
+"372","Adrian Mariappa",15,13,0,0,0,0,2,0,2020,"Watford","D",33,1408680,3,NA
+"858","Adrian Mariappa",26,20,0,0,1,8,3,0,2019,"Watford","D",33,1408680,3,NA
+"325","Danny Welbeck",7,3,0,0,3,5,0,0,2020,"Watford","F",29,0,NA,NA
+"630","Danny Welbeck",8,1,1,1,2,4,0,0,2019,"Watford","F",29,0,NA,NA
+"257","Craig Dawson",19,16,0,0,2,4,4,0,2020,"Watford","D",29,0,4,8965500
+"373","Dimitri Foulquier",3,1,0,0,0,0,0,0,2020,"Watford","D",26,0,4,NA
+"75","Ismaila Sarr",16,11,3,2,8,27,1,0,2020,"Watford","F",21,0,5,44118000
+"436","Ignacio Pussetto",4,0,0,0,0,0,0,0,2020,"Watford","F",24,0,NA,NA
+"74","Andriy Yarmolenko",15,9,3,1,7,18,2,0,2020,"West Ham United","F",30,30856800,4,22833000
+"606","Andriy Yarmolenko",9,5,2,0,3,9,2,0,2019,"West Ham United","F",30,30856800,4,22833000
+"109","Angelo Ogbonna",21,21,2,0,4,8,4,0,2020,"West Ham United","D",31,23478000,5,12061500
+"669","Angelo Ogbonna",24,20,1,1,5,14,2,0,2019,"West Ham United","D",31,23478000,5,12061500
+"952","Felipe Anderson",19,18,1,4,9,23,1,0,2020,"West Ham United","M",26,22807200,4,43473000
+"968","Felipe Anderson",36,36,9,4,24,59,3,0,2019,"West Ham United","M",26,22807200,4,43473000
+"81","Issa Diop",20,19,2,0,4,7,7,0,2020,"West Ham United","D",23,22471800,5,28251000
+"682","Issa Diop",33,33,1,0,5,12,4,0,2019,"West Ham United","D",23,22471800,5,28251000
+"220","Jack Wilshere",6,2,0,0,0,0,0,0,2020,"West Ham United","M",28,20124000,3,NA
+"753","Jack Wilshere",8,4,0,1,1,2,2,0,2019,"West Ham United","M",28,20124000,3,NA
+"221","Manuel Lanzini",19,12,0,2,8,17,0,0,2020,"West Ham United","M",27,18782400,4,13158000
+"668","Manuel Lanzini",10,8,1,1,4,11,2,0,2019,"West Ham United","M",27,18782400,4,13158000
+"131","Michail Antonio",12,7,1,1,8,24,0,0,2020,"West Ham United","M",29,18782400,4,10423200
+"505","Michail Antonio",33,22,6,3,23,63,3,0,2019,"West Ham United","M",29,18782400,4,10423200
+"56","Aaron Cresswell",20,20,3,0,4,13,6,0,2020,"West Ham United","D",30,16770000,5,5211600
+"831","Aaron Cresswell",20,18,0,1,1,11,1,0,2019,"West Ham United","D",30,16770000,5,5211600
+"321","Arthur Masuaku",15,10,0,1,2,6,3,0,2020,"West Ham United","D",26,13416000,5,7791600
+"835","Arthur Masuaku",23,19,0,1,2,5,2,0,2019,"West Ham United","D",26,13416000,5,7791600
+"217","Lukasz Fabianski",13,13,0,0,0,0,1,0,2020,"West Ham United","GK",34,13080600,3,9030000
+"869","Lukasz Fabianski",38,38,0,0,0,0,0,0,2019,"West Ham United","GK",34,13080600,3,9030000
+"33","Robert Snodgrass",21,16,5,3,9,22,4,0,2020,"West Ham United","M",32,10732800,4,13158000
+"608","Robert Snodgrass",33,25,2,5,7,29,10,0,2019,"West Ham United","M",32,10732800,4,13158000
+"218","Ryan Fredericks",20,19,0,2,0,1,5,0,2020,"West Ham United","D",27,10732800,4,NA
+"695","Ryan Fredericks",15,12,1,0,3,5,5,0,2019,"West Ham United","D",27,10732800,4,NA
+"130","Fabian Balbuena",13,12,1,0,3,4,2,0,2020,"West Ham United","D",28,8049600,3,4644000
+"686","Fabian Balbuena",23,23,1,0,2,18,2,0,2019,"West Ham United","D",28,8049600,3,4644000
+"53","Mark Noble",23,23,4,1,6,15,3,0,2020,"West Ham United","M",32,6708000,2,NA
+"518","Mark Noble",31,29,5,5,8,17,6,1,2019,"West Ham United","M",32,6708000,2,NA
+"327","Carlos Sanchez",6,1,0,0,0,0,0,0,2020,"West Ham United","M",34,6708000,2,NA
+"908","Carlos Sanchez",7,2,0,0,0,3,0,0,2019,"West Ham United","M",34,6708000,2,NA
+"368","Pablo Zabaleta",10,6,0,0,0,2,2,0,2020,"West Ham United","D",35,5031000,1,NA
+"837","Pablo Zabaleta",26,23,0,1,1,7,4,0,2019,"West Ham United","D",35,5031000,1,NA
+"219","Declan Rice",26,26,0,2,8,14,4,0,2020,"West Ham United","D",21,1006200,5,NA
+"600","Declan Rice",34,34,2,0,5,22,4,0,2019,"West Ham United","D",21,1006200,5,NA
+"832","Grady Diangana",17,6,0,1,3,10,0,0,2019,"West Ham United","F",21,804960,6,NA
+"438","Darren Randolph",2,2,0,0,0,0,0,0,2020,"West Ham United","GK",32,0,4,6669300
+"412","David Martin",5,4,0,0,0,0,1,0,2020,"West Ham United","GK",34,0,2,NA
+"133","Pablo Fornals",24,13,1,3,6,18,1,0,2020,"West Ham United","M",24,0,5,41176800
+"28","Sebastian Haller",24,22,6,1,18,32,1,0,2020,"West Ham United","F",25,0,5,58824000
+"394","Albian Ajeti",8,0,0,0,1,2,0,0,2020,"West Ham United","F",22,0,4,12796800
+"294","Rui Patricio",26,26,0,0,1,4,0,0,2020,"Wolverhampton Wanderers","GK",32,26832000,4,NA
+"863","Rui Patricio",37,37,0,0,0,0,0,0,2019,"Wolverhampton Wanderers","GK",32,26832000,4,NA
+"105","Patrick Cutrone",12,3,2,0,5,9,0,0,2020,"Wolverhampton Wanderers","F",22,16883520,4,26470800
+"103","Ruben Neves",26,23,2,1,7,28,7,0,2020,"Wolverhampton Wanderers","M",22,16770000,5,NA
+"537","Ruben Neves",35,34,4,3,17,73,8,0,2019,"Wolverhampton Wanderers","M",22,16770000,5,NA
+"52","Adama Traore",25,21,4,7,11,31,0,0,2020,"Wolverhampton Wanderers","F",24,14422200,5,23220000
+"702","Adama Traore",29,8,1,1,7,22,1,0,2019,"Wolverhampton Wanderers","F",24,14422200,5,23220000
+"703","Jonny Castro",33,32,1,1,7,26,6,0,2019,"Wolverhampton Wanderers","D",25,12300150,5,NA
+"13","Raul Jimenez",26,25,11,6,34,73,2,0,2020,"Wolverhampton Wanderers","F",28,11063040,4,55882800
+"470","Raul Jimenez",38,36,13,7,38,113,4,0,2019,"Wolverhampton Wanderers","F",28,11063040,4,55882800
+"671","Helder Costa",25,16,1,2,7,26,3,0,2019,"Wolverhampton Wanderers","F",26,10900500,5,17221500
+"359","Ruben Vinagre",10,3,0,0,0,2,1,0,2020,"Wolverhampton Wanderers","D",20,10062000,5,NA
+"841","Ruben Vinagre",17,7,0,0,4,6,1,0,2019,"Wolverhampton Wanderers","D",20,10062000,5,NA
+"838","Leo Bonatini",7,0,0,1,1,8,0,0,2019,"Wolverhampton Wanderers","F",25,9391200,4,4515000
+"296","Conor Coady",26,26,0,0,1,1,2,0,2020,"Wolverhampton Wanderers","D",26,4024800,4,NA
+"900","Conor Coady",38,38,0,0,0,0,5,0,2019,"Wolverhampton Wanderers","D",26,4024800,4,NA
+"106","Romain Saiss",22,20,2,0,4,11,7,0,2020,"Wolverhampton Wanderers","M",29,2951520,2,4644000
+"601","Romain Saiss",19,12,2,0,5,11,7,0,2019,"Wolverhampton Wanderers","M",29,2951520,2,4644000
+"298","Ryan Bennett",11,7,0,0,0,0,2,0,2020,"Wolverhampton Wanderers","D",29,2683200,2,NA
+"696","Ryan Bennett",34,34,1,0,4,15,12,0,2019,"Wolverhampton Wanderers","D",29,2683200,2,NA
+"66","Matt Doherty",24,21,3,0,10,18,1,0,2020,"Wolverhampton Wanderers","D",28,2683200,4,NA
+"541","Matt Doherty",38,35,4,5,18,44,5,0,2019,"Wolverhampton Wanderers","D",28,2683200,4,NA
+"102","Leander Dendoncker",26,24,2,0,4,8,3,0,2020,"Wolverhampton Wanderers","M",24,2543880,1,19853100
+"611","Leander Dendoncker",19,17,2,0,10,17,1,0,2019,"Wolverhampton Wanderers","M",24,2543880,1,19853100
+"840","Will Norris",1,0,0,0,0,0,0,0,2019,"Wolverhampton Wanderers","GK",26,603720,3,NA
+"344","Morgan Gibbs-White",4,1,0,0,0,1,0,0,2020,"Wolverhampton Wanderers","M",20,503100,5,NA
+"839","Morgan Gibbs White",26,5,0,1,1,7,1,0,2019,"Wolverhampton Wanderers","M",20,503100,5,NA
+"360","Jesus Vallejo",2,1,0,0,0,0,1,0,2020,"Wolverhampton Wanderers","D",23,0,1,NA
+"115","Pedro Neto",19,7,2,2,3,11,2,0,2020,"Wolverhampton Wanderers","F",19,0,5,26909400
+"452","Daniel Podence",2,0,0,0,0,1,0,0,2020,"Wolverhampton Wanderers","F",24,0,5,27812400
