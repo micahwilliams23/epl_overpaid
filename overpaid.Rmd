@@ -67,6 +67,8 @@ prem <- getMatches(
 
 prem %<>% select(-c(posterior, gamma.1))
 
+write.csv(prem, file = 'data/final.csv')
+
 rm(single_names, stats_2020, stats_2019, matches.out)
 ```
 
@@ -92,12 +94,6 @@ ggplot(top_paid, aes(x = team, y = contract_value, color = position)) +
   scale_y_log10(
     breaks = c(10*10^6, 20*10^6, 40*10^6, 80*10^6, 160*10^6),
     labels = c('$10M', '$20M', '$40M', '$80M', '$160M')) +
-  # annotate('text',
-  #          x = top_paid$contract_value, y = 1,
-  #          label = top_paid$team,
-  #          angle = -90, vjust = 1, hjust = 0,
-  #          size = 3.5) +
-  # expand_limits(y = 1.5) +
   theme(panel.grid.minor.x = element_blank(),
         legend.direction = 'horizontal',
         legend.position = c(0.75,0.05),
@@ -108,19 +104,22 @@ ggplot(top_paid, aes(x = team, y = contract_value, color = position)) +
        x = '', y = 'Contract Value')
 ```
 
-```{r}
+```{r fig.width = 10, fig.height = 6}
 prem_cut <- prem %>%
   mutate(contract_value_millions = contract_value / (1*10^6),
-         pay_interval = cut(contract_value_millions, breaks = 5))
-
+         pay_interval = cut(contract_value_millions, breaks = 6))
   
 prem_cut %>%
-  ggplot(aes(pay_interval, fill = team)) + 
+  ggplot(aes(pay_interval, fill = as.factor(team))) + 
   geom_bar(position = 'fill') +
   scale_fill_viridis_d(option = 'magma') +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         legend.direction = 'horizontal',
-        legend.position = 'bottom')
+        legend.position = 'bottom') +
+  labs(y = 'Proportion of Contracts in Interval',
+       x = 'Contract Value (million $)',
+       title = 'Distribution of Premier League Contract Values, by Team',
+       subtitle = 'The wealthiest clubs in the league like Manchester United, Manchester City, and Tottenham Hotspur can afford to pay their star players \n tens of millions more than smaller clubs like Burnley, Watford, or Sheffield United.')
 ```
 
 ```{r contract_by_position}
@@ -174,31 +173,76 @@ f_m <- prem %>%
          performance_cost = performance / (contract_value * 10^-6))
 
 f_m %>%
-  arrange(performance_cost) %>%
-  slice(1:5, 111:116)
+  arrange(desc(performance_cost)) %>%
+  slice(1:5)
 ```
 
 
-```{r value_plot}
+```{r value_plot, fig.width=9}
 best_value <- f_m %>%
-  arrange(desc(performance_cost)) %>%
   group_by(team) %>%
-  slice(1)
+  summarize(avg_perf_cost = mean(performance_cost)) %>%
+  arrange(desc(avg_perf_cost)) %>%
+  full_join(f_m %>% group_by(team) %>% count() %>% arrange(desc(n)),
+    by = 'team'
+  )
 
-new_team_order <- reorder(best_value$team, best_value$performance_cost)
+new_team_order <- reorder(best_value$team, best_value$avg_perf_cost)
 
 f_m$team <- factor(f_m$team, levels(new_team_order))
 
-ggplot(f_m, aes(team, performance_cost, color = log(performance_cost))) +
-  geom_point() +
-  scale_color_continuous(low = '#990055', high = '#4477ff') +
+f_m %>%
+  filter(performance_cost > 0) %>% 
+  ggplot(., aes(team, performance_cost)) +
+  geom_point(alpha = 0.6, pch = 1) +
+  geom_point(data = best_value, aes(team, avg_perf_cost, color = log(avg_perf_cost)),
+             pch =17, size = 3.1, alpha = 1) +
+  annotate('text', x = best_value$team, y = 1600, label = best_value$n, size = 3) +
+  scale_color_continuous(high = '#990055', low = '#4477ff') +
   scale_y_log10() +
-  theme_minimal() +
+  # theme_minimal() +
   theme(legend.position = 'none') +
-  labs(title = 'Player Performance Scores by Team',
-       subtitle = 'Ordered by each team\'s highest performance score player',
+  labs(title = 'Player Performance Scores by Team (Midfielders and Forwards)',
+       subtitle = 'Ordered by average performance cost of team',
        y = 'Performance Score',
-       x = 'Team')+
+       x = 'Team') +
+  coord_flip()
+
+
+# below code shows that roster size is likely a compounding factor for performance cost
+
+```
+
+```{r, fig.width = 9}
+best_value <- prem %>%
+  group_by(team) %>%
+  summarize(avg_contract = mean(contract_value)) %>%
+  arrange(desc(avg_contract)) %>%
+  full_join(prem %>% group_by(team) %>% count() %>% arrange(desc(n)),
+    by = 'team'
+  )
+
+new_team_order <- reorder(best_value$team, best_value$avg_contract)
+
+prem$team <- factor(prem$team, levels(new_team_order))
+
+prem %>%
+  filter(contract_value > 0) %>% 
+  ggplot(., aes(team, contract_value)) +
+  geom_point(alpha = 0.6, pch = 1) +
+  geom_point(data = best_value, 
+             aes(team, avg_contract, fill = log(avg_contract)),
+             pch = 21, size = 7, alpha = 1) +
+  annotate('text', 
+           x = best_value$team, y = best_value$avg_contract, 
+           label = best_value$n, size = 3.5, color = 'white') +
+  scale_color_continuous(high = '#990055', low = '#4477ff') +
+  scale_y_log10() +
+  # theme_minimal() +
+  theme(legend.position = 'none') +
+  labs(title = 'Average Contract Value by Team',
+       y = 'Contract Value',
+       x = 'Team') +
   coord_flip()
 ```
 
